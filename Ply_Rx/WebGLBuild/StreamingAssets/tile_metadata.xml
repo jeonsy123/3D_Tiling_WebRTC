@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<Tileset>
+  <Tile id="1" x="361.7935892848014" y="129.31384898522572" z="224.14062675732325">
+    <High file="b_tile_1.ply"/>
+    <Low file="b_d_tile_1.ply"/>
+  </Tile>
+  <Tile id="2" x="326.4986086609543" y="417.36614793346774" z="245.3939957157258">
+    <High file="b_tile_2.ply"/>
+    <Low file="b_d_tile_2.ply"/>
+  </Tile>
+  <Tile id="3" x="336.3798321158676" y="646.3368232744286" z="245.4176576493928">
+    <High file="b_tile_3.ply"/>
+    <Low file="b_d_tile_3.ply"/>
+  </Tile>
+  <Tile id="4" x="357.6705079786837" y="874.6029615918557" z="255.55100685166664">
+    <High file="b_tile_4.ply"/>
+    <Low file="b_d_tile_4.ply"/>
+  </Tile>
+  <Tile id="5" x="469.5193860783834" y="473.50610075866166" z="206.91637240848863">
+    <High file="b_tile_5.ply"/>
+    <Low file="b_d_tile_5.ply"/>
+  </Tile>
+  <Tile id="6" x="459.17506096022873" y="646.4927898763979" z="221.04067518708484">
+    <High file="b_tile_6.ply"/>
+    <Low file="b_d_tile_6.ply"/>
+  </Tile>
+  <Tile id="7" x="484.9585264915366" y="847.4703824088382" z="246.85668105362248">
+    <High file="b_tile_7.ply"/>
+    <Low file="b_d_tile_7.ply"/>
+  </Tile>
+</Tileset>
+
+
+
+

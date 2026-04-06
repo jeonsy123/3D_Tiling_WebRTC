@@ -1,0 +1,473 @@
+using UnityEngine;
+using Unity.WebRTC;
+using System;
+using System.IO;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.Concurrent;
+using System.Net.WebSockets;
+
+// [필수] 전역 Enum 정의
+public enum TileSize { _64, _128, _256, _512, _1024 }
+
+public class TileSender : MonoBehaviour
+{
+    [Header("Signaling (Localhost)")]
+    public string signalingUrl = "ws://127.0.0.1:3001?room=demo";
+
+    [Header("XML / Files")]
+    [Tooltip("RX(수신측)와 동일해야 함")]
+    public TileSize tileSize = TileSize._128;
+
+    [Header("Performance")]
+    public int batchSize = 10;
+
+    [Range(0f, 0.1f)]
+    public float batchDelay = 0.01f;
+
+    [Header("Chunk & Backpressure")]
+    public int chunkSize = 1200;
+    public ulong bufferedAmountLimit = 256 * 1024; // 256KB
+    public int progressLogEveryNChunks = 64;
+
+    [Header("Debug")]
+    public bool verbose = true;
+
+    // --- WebRTC ---
+    RTCPeerConnection pc;
+    RTCDataChannel ctrlDC;
+    RTCDataChannel tilesDC;
+    bool isCaller = true;
+
+    // --- signaling ---
+    ClientWebSocket ws;
+    readonly ConcurrentQueue<string> rxSignal = new();
+    CancellationTokenSource wsCts;
+
+    // --- msg types ---
+    [Serializable] class Sig { public string type, sdp, candidate, sdpMid; public int sdpMLineIndex; }
+    [Serializable] class CtrlHello { public string type = "hello"; public string role = "sender"; }
+    [Serializable] class CtrlPing { public string type = "ping"; public long t0; }
+    [Serializable] class CtrlPong { public string type = "pong"; public long t0; public long t1; }
+    [Serializable] class CtrlTypeOnly { public string type; }
+    [Serializable] class RequestTileMsg { public string type = "requestTile"; public string relativePath; public int priority; }
+    [Serializable] class FileStart { public string type = "file_start"; public string name; public int bytes; }
+    [Serializable] class FileEnd { public string type = "file_end"; }
+
+    // --- 전송 큐/상태 ---
+    readonly ConcurrentQueue<string> sendQueue = new();
+    readonly ConcurrentDictionary<string, byte> inQueue = new();
+    bool sending = false;
+
+    int latestRequestedFrameId = -1;
+    ulong bytesSentTotal = 0;
+    int batchCounter = 0;
+
+    // 경로 캐싱
+    private string assetBasePath;
+
+    IEnumerator Start()
+    {
+        assetBasePath = Application.streamingAssetsPath;
+        yield return new WaitForSeconds(1.0f);
+
+        var cfg = default(RTCConfiguration);
+        cfg.iceServers = new RTCIceServer[] { };
+        pc = new RTCPeerConnection(ref cfg);
+
+        // CTRL
+        ctrlDC = pc.CreateDataChannel("ctrl", new RTCDataChannelInit { ordered = true });
+        ctrlDC.OnOpen += HandleCtrlDCOpen;
+        ctrlDC.OnMessage += OnCtrlMessage;
+
+        // TILES
+        tilesDC = pc.CreateDataChannel("tiles", new RTCDataChannelInit { ordered = true });
+        tilesDC.OnOpen += HandleTilesDCOpen;
+
+        pc.OnIceCandidate = cand =>
+        {
+            if (!string.IsNullOrEmpty(cand.Candidate))
+            {
+                SendSignal(new Sig
+                {
+                    type = "candidate",
+                    candidate = cand.Candidate,
+                    sdpMid = cand.SdpMid,
+                    sdpMLineIndex = cand.SdpMLineIndex ?? 0
+                });
+            }
+        };
+
+        var connectTask = ConnectSignaling();
+        while (!connectTask.IsCompleted) yield return null;
+
+        StartCoroutine(ProcessIncomingSignals());
+        StartCoroutine(KeepAliveLoop());
+
+        if (isCaller)
+        {
+            var offerOp = pc.CreateOffer();
+            yield return offerOp;
+            var setLocal = pc.SetLocalDescription();
+            while (!setLocal.IsDone) yield return null;
+            SendSignal(new Sig { type = "offer", sdp = pc.LocalDescription.sdp });
+        }
+    }
+
+    IEnumerator KeepAliveLoop()
+    {
+        while (ws != null && ws.State == WebSocketState.Open)
+        {
+            yield return new WaitForSeconds(3.0f);
+        }
+    }
+
+    void HandleCtrlDCOpen()
+    {
+        Debug.Log("[TX] ctrl open");
+        SendCtrl(new CtrlHello());
+        StartCoroutine(SendPingDelayed(1f));
+    }
+
+    void HandleTilesDCOpen()
+    {
+        Debug.Log("[TX] tiles open");
+        // [수정] Draco용 XML 전송 시작
+        StartCoroutine(SendInitialXmlWithFraming());
+        TryStartSendLoop();
+    }
+
+    void OnCtrlMessage(byte[] data)
+    {
+        var json = Encoding.UTF8.GetString(data);
+        if (verbose) Debug.Log($"[TX][RX] {json}");
+        CtrlTypeOnly tag = null; try { tag = JsonUtility.FromJson<CtrlTypeOnly>(json); } catch { }
+        if (tag == null || string.IsNullOrEmpty(tag.type)) return;
+
+        if (tag.type == "requestTile")
+        {
+            var req = JsonUtility.FromJson<RequestTileMsg>(json);
+            if (string.IsNullOrEmpty(req.relativePath)) return;
+
+            int fid = ExtractFrameId(req.relativePath);
+            if (fid >= 0 && fid < latestRequestedFrameId) return;
+            if (fid > latestRequestedFrameId) latestRequestedFrameId = fid;
+
+            if (sendQueue.Count > 2000)
+            {
+                while (sendQueue.TryDequeue(out _)) ;
+                inQueue.Clear();
+                Debug.LogWarning("[TX] Queue Overflow! Cleared.");
+            }
+
+            if (inQueue.TryAdd(req.relativePath, 1))
+            {
+                sendQueue.Enqueue(req.relativePath);
+                TryStartSendLoop();
+            }
+        }
+    }
+
+    void SendCtrl(object obj)
+    {
+        if (ctrlDC == null || ctrlDC.ReadyState != RTCDataChannelState.Open) return;
+        var json = JsonUtility.ToJson(obj);
+        ctrlDC.Send(Encoding.UTF8.GetBytes(json));
+    }
+
+    IEnumerator SendPingDelayed(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SendCtrl(new CtrlPing { t0 = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() });
+    }
+
+    // ==================================================================================
+    // [수정] Draco XML 파일명 처리 (Draco_ 접두어 추가)
+    // ==================================================================================
+    IEnumerator SendInitialXmlWithFraming()
+    {
+        while (tilesDC == null || tilesDC.ReadyState != RTCDataChannelState.Open) yield return null;
+
+        string sizeStr = tileSize.ToString().Substring(1);
+
+        // [수정] 파일명 앞에 "Draco_" 추가
+        string name = $"Draco_tile_metadata_{sizeStr}.xml";
+        string xmlPath = Path.Combine(assetBasePath, name);
+
+        if (!File.Exists(xmlPath))
+        {
+            Debug.LogError($"[TX] XML Not Found: {xmlPath}");
+            // XML이 없으면 아무것도 못하므로 여기서 종료
+            yield break;
+        }
+
+        Task<byte[]> readTask = Task.Run(() => File.ReadAllBytes(xmlPath));
+        while (!readTask.IsCompleted) yield return null;
+
+        yield return StartCoroutine(SendTileFileWithFraming(name, readTask.Result));
+    }
+
+    void TryStartSendLoop()
+    {
+        if (sending || sendQueue.IsEmpty) return;
+        StartCoroutine(SendLoop());
+    }
+
+    IEnumerator SendLoop()
+    {
+        sending = true;
+        while (tilesDC == null || tilesDC.ReadyState != RTCDataChannelState.Open) yield return null;
+
+        while (!sendQueue.IsEmpty)
+        {
+            while (tilesDC.BufferedAmount > bufferedAmountLimit) yield return null;
+
+            var batchList = new List<string>();
+            while (batchList.Count < batchSize && sendQueue.TryDequeue(out var rel))
+            {
+                int fid = ExtractFrameId(rel);
+                if (fid >= 0 && fid < latestRequestedFrameId)
+                {
+                    inQueue.TryRemove(rel, out _);
+                    continue;
+                }
+                batchList.Add(rel);
+            }
+
+            if (batchList.Count > 0)
+            {
+                string batchName = $"__BATCH__/batch_frame{latestRequestedFrameId}_{batchCounter++}.batch";
+
+                // [최적화] 비동기 패킹 (파일 없으면 0바이트 처리 포함)
+                Task<byte[]> packTask = Task.Run(() => PackBatchThreaded(batchList, assetBasePath));
+
+                while (!packTask.IsCompleted) yield return null;
+
+                if (packTask.Exception != null)
+                {
+                    Debug.LogError($"[TX] Pack Error: {packTask.Exception}");
+                }
+                else
+                {
+                    byte[] payload = packTask.Result;
+                    if (payload != null)
+                    {
+                        if (verbose) Debug.Log($"[TX] Sending Batch: {batchList.Count} items (Size: {payload.Length})");
+                        yield return StartCoroutine(SendTileFileWithFraming(batchName, payload));
+                    }
+                }
+
+                if (batchDelay > 0) yield return new WaitForSeconds(batchDelay);
+            }
+            else
+            {
+                yield return null;
+            }
+        }
+        sending = false;
+    }
+
+    // [최적화] 파일 읽기 스레드 (없는 파일 0바이트 처리)
+    static byte[] PackBatchThreaded(List<string> batchList, string basePath)
+    {
+        try
+        {
+            using (var ms = new MemoryStream())
+            using (var writer = new BinaryWriter(ms, Encoding.UTF8))
+            {
+                var validFiles = new List<(string relNorm, byte[] data)>();
+
+                foreach (var rel in batchList)
+                {
+                    string relNorm = NormalizeRel(rel);
+                    // 경로는 클라이언트 요청 그대로 사용 (XML에 이미 draco_ 폴더 경로가 있을 것임)
+                    string fullPath = Path.Combine(basePath, relNorm.Replace('/', Path.DirectorySeparatorChar));
+
+                    if (File.Exists(fullPath))
+                    {
+                        byte[] fileData = File.ReadAllBytes(fullPath);
+                        validFiles.Add((relNorm, fileData));
+                    }
+                    else
+                    {
+                        // [중요] 파일이 없으면 빈 배열(0 byte)을 추가 -> 수신측 멈춤 해결
+                        validFiles.Add((relNorm, new byte[0]));
+                    }
+                }
+
+                writer.Write(validFiles.Count);
+                foreach (var file in validFiles)
+                {
+                    writer.Write(file.relNorm);
+                    writer.Write(file.data.Length);
+                    writer.Write(file.data);
+                }
+                return ms.ToArray();
+            }
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
+    IEnumerator SendTileFileWithFraming(string relativePath, byte[] customPayload = null)
+    {
+        if (string.IsNullOrEmpty(relativePath)) yield break;
+
+        byte[] bytes;
+        if (customPayload != null)
+        {
+            bytes = customPayload;
+        }
+        else
+        {
+            string rel = NormalizeRel(relativePath);
+            string fullPath = Path.Combine(Application.streamingAssetsPath, rel.Replace('/', Path.DirectorySeparatorChar));
+
+            if (File.Exists(fullPath))
+            {
+                bytes = File.ReadAllBytes(fullPath);
+            }
+            else
+            {
+                // 단일 파일 요청 시에도 파일 없으면 0바이트 전송
+                bytes = new byte[0];
+            }
+        }
+
+        if (tilesDC == null || tilesDC.ReadyState != RTCDataChannelState.Open) yield break;
+
+        string nameForCtrl = NormalizeRel(relativePath);
+
+        SendCtrl(new FileStart { name = nameForCtrl, bytes = bytes.Length });
+        yield return StartCoroutine(SendBytesOverTiles(bytes));
+        SendCtrl(new FileEnd { });
+    }
+
+    IEnumerator SendBytesOverTiles(byte[] bytes)
+    {
+        if (tilesDC == null || tilesDC.ReadyState != RTCDataChannelState.Open) yield break;
+
+        int total = bytes.Length;
+        if (total == 0) yield break; // 0바이트면 전송할 내용 없음
+
+        int chunks = (total + chunkSize - 1) / chunkSize;
+
+        for (int seq = 0; seq < chunks; seq++)
+        {
+            if (tilesDC.ReadyState != RTCDataChannelState.Open) yield break;
+
+            int offset = seq * chunkSize;
+            int size = Math.Min(chunkSize, total - offset);
+            var chunk = new byte[size];
+            Buffer.BlockCopy(bytes, offset, chunk, 0, size);
+
+            tilesDC.Send(chunk);
+            bytesSentTotal += (ulong)size;
+
+            if (tilesDC.BufferedAmount > 64 * 1024) yield return null;
+            while (tilesDC.BufferedAmount > bufferedAmountLimit) yield return null;
+        }
+    }
+
+    // ---- 유틸 ----
+    static string NormalizeRel(string p)
+    {
+        if (string.IsNullOrEmpty(p)) return "";
+        p = p.Replace('\\', '/');
+        while (p.Length > 0 && p[0] == '/') p = p[1..];
+        return p;
+    }
+
+    int ExtractFrameId(string rel)
+    {
+        if (string.IsNullOrEmpty(rel)) return -1;
+        string s = rel.ToLowerInvariant();
+        int i = s.IndexOf("frame_");
+        if (i >= 0)
+        {
+            i += "frame_".Length;
+            int j = i;
+            while (j < s.Length && char.IsDigit(s[j])) j++;
+            if (int.TryParse(s.Substring(i, j - i), out int id)) return id;
+        }
+        return -1;
+    }
+
+    // ---- Signaling ----
+    async Task ConnectSignaling()
+    {
+        wsCts = new CancellationTokenSource();
+        ws = new ClientWebSocket();
+        try { await ws.ConnectAsync(new Uri(signalingUrl), wsCts.Token); _ = Task.Run(ReceiveLoop); } catch { }
+    }
+
+    async Task ReceiveLoop()
+    {
+        var buf = new ArraySegment<byte>(new byte[64 * 1024]);
+        while (!wsCts.IsCancellationRequested && ws.State == WebSocketState.Open)
+        {
+            try
+            {
+                using var ms = new MemoryStream();
+                WebSocketReceiveResult r;
+                do
+                {
+                    r = await ws.ReceiveAsync(buf, wsCts.Token);
+                    if (r.MessageType == WebSocketMessageType.Close) return;
+                    ms.Write(buf.Array, buf.Offset, r.Count);
+                } while (!r.EndOfMessage);
+                rxSignal.Enqueue(Encoding.UTF8.GetString(ms.ToArray()));
+            }
+            catch { break; }
+        }
+    }
+
+    IEnumerator ProcessIncomingSignals()
+    {
+        while (true)
+        {
+            if (rxSignal.TryDequeue(out var json))
+            {
+                Sig m = null; try { m = JsonUtility.FromJson<Sig>(json); } catch { }
+                if (m != null)
+                {
+                    if (m.type == "offer")
+                    {
+                        var desc = new RTCSessionDescription { type = RTCSdpType.Offer, sdp = m.sdp };
+                        pc.SetRemoteDescription(ref desc);
+                        yield return pc.CreateAnswer();
+                        yield return pc.SetLocalDescription();
+                        SendSignal(new Sig { type = "answer", sdp = pc.LocalDescription.sdp });
+                    }
+                    else if (m.type == "answer")
+                    {
+                        var desc = new RTCSessionDescription { type = RTCSdpType.Answer, sdp = m.sdp };
+                        pc.SetRemoteDescription(ref desc);
+                    }
+                    else if (m.type == "candidate")
+                    {
+                        var init = new RTCIceCandidateInit { candidate = m.candidate, sdpMid = m.sdpMid, sdpMLineIndex = m.sdpMLineIndex };
+                        pc.AddIceCandidate(new RTCIceCandidate(init));
+                    }
+                }
+            }
+            yield return null;
+        }
+    }
+
+    void SendSignal(Sig s)
+    {
+        if (ws != null && ws.State == WebSocketState.Open)
+            _ = ws.SendAsync(new ArraySegment<byte>(Encoding.UTF8.GetBytes(JsonUtility.ToJson(s))), WebSocketMessageType.Text, true, CancellationToken.None);
+    }
+
+    void OnDestroy()
+    {
+        wsCts?.Cancel(); ws?.Dispose(); ctrlDC?.Close(); tilesDC?.Close(); pc?.Close();
+    }
+}

@@ -1,0 +1,35 @@
+# Unity Generated Folders (모든 하위 폴더 적용)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/Logs/
+**/UserSettings/
+**/.vs/
+**/ExportedObj/
+**/.consulo/
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.suo
+**/*.tmp
+**/*.user
+**/*.userprefs
+**/*.pidb
+**/*.booproj
+**/*.svd
+**/*.pdb
+**/*.mdb
+**/*.opendb
+**/*.VC.db
+
+# 3D Point Cloud Data & Large Assets
+*.ply
+*.drc
+*.pcd
+*.bin
+*.ptx
+**/[Dd]ata/
+**/[Dd]atasets/
+*.zip

@@ -1,0 +1,4031 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Tileset>
+  <Frame id="1450">
+    <Tile id="1" x="350.7101889837875" y="326.1953024381592" z="234.81828554392686">
+      <High file="draco_high_tile512/high_1450/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1450/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="371.96611003813155" y="737.5415938227917" z="246.5376216944488">
+      <High file="draco_high_tile512/high_1450/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1450/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="533.5094644771447" y="868.0614842724531" z="234.11381107385787">
+      <High file="draco_high_tile512/high_1450/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1450/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1451">
+    <Tile id="1" x="351.06774001180634" y="324.8896769515646" z="233.60723187704426">
+      <High file="draco_high_tile512/high_1451/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1451/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="373.52521113466315" y="736.7060630787622" z="245.11040335156156">
+      <High file="draco_high_tile512/high_1451/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1451/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="531.2841213229616" y="862.9673635405308" z="224.0606030634795">
+      <High file="draco_high_tile512/high_1451/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1451/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1452">
+    <Tile id="1" x="352.7517003903893" y="323.60814188588046" z="231.6505666835072">
+      <High file="draco_high_tile512/high_1452/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1452/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="374.20191897296127" y="737.4720859464791" z="243.1825538125493">
+      <High file="draco_high_tile512/high_1452/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1452/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="528.762853849509" y="859.486784320575" z="222.2292616290066">
+      <High file="draco_high_tile512/high_1452/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1452/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1453">
+    <Tile id="1" x="355.3173861263369" y="321.9706621637009" z="229.2335240164963">
+      <High file="draco_high_tile512/high_1453/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1453/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="375.2686139133841" y="736.4822202577318" z="242.4982640106526">
+      <High file="draco_high_tile512/high_1453/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1453/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.9500095179275" y="843.6580622952424" z="212.99298906184003">
+      <High file="draco_high_tile512/high_1453/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1453/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1454">
+    <Tile id="1" x="357.6784438901196" y="318.5431398067908" z="226.96599051456428">
+      <High file="draco_high_tile512/high_1454/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1454/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="377.0212659307445" y="734.1359177216636" z="240.50510231769775">
+      <High file="draco_high_tile512/high_1454/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1454/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.1982635099835" y="837.0021681116239" z="208.90472728567852">
+      <High file="draco_high_tile512/high_1454/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1454/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1455">
+    <Tile id="1" x="360.622914270799" y="317.0715316227453" z="225.39987363618903">
+      <High file="draco_high_tile512/high_1455/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1455/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="377.50297074280275" y="733.2719787615567" z="239.14533436343544">
+      <High file="draco_high_tile512/high_1455/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1455/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="513.7298305909146" y="503.7858410691663" z="204.69702828897013">
+      <High file="draco_high_tile512/high_1455/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1455/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="516.7592569098549" y="757.030637427362" z="202.47814932521948">
+      <High file="draco_high_tile512/high_1455/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1455/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1456">
+    <Tile id="1" x="363.73161044139846" y="315.6074397553599" z="225.72782768918904">
+      <High file="draco_high_tile512/high_1456/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1456/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="379.4792965024185" y="736.0659885546988" z="238.3317272181187">
+      <High file="draco_high_tile512/high_1456/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1456/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.1365608233368" y="497.533686734824" z="204.4816906164724">
+      <High file="draco_high_tile512/high_1456/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1456/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="517.9307644422664" y="665.1306953651961" z="195.4552515384763">
+      <High file="draco_high_tile512/high_1456/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1456/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1457">
+    <Tile id="1" x="365.1417104161085" y="312.90911644997266" z="227.8086768001418">
+      <High file="draco_high_tile512/high_1457/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1457/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="381.8635283067345" y="737.9971395293288" z="237.61882061375906">
+      <High file="draco_high_tile512/high_1457/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1457/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.7328888561492" y="492.3891498077939" z="202.2541975854281">
+      <High file="draco_high_tile512/high_1457/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1457/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="518.4443031827631" y="601.2101135595457" z="209.97061589288523">
+      <High file="draco_high_tile512/high_1457/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1457/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1458">
+    <Tile id="1" x="366.6231492320353" y="314.0726532948297" z="229.90148537759393">
+      <High file="draco_high_tile512/high_1458/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1458/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="383.10782602743114" y="739.4370548184199" z="236.49120318746623">
+      <High file="draco_high_tile512/high_1458/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1458/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.8882795411494" y="486.0460035362738" z="202.78172346526938">
+      <High file="draco_high_tile512/high_1458/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1458/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="520.4697811764855" y="592.2424196264558" z="210.74436897646538">
+      <High file="draco_high_tile512/high_1458/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1458/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1459">
+    <Tile id="1" x="366.9634281774316" y="313.56458193854115" z="232.75783129581188">
+      <High file="draco_high_tile512/high_1459/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1459/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="385.2267222096729" y="741.0902404089363" z="234.8803351333654">
+      <High file="draco_high_tile512/high_1459/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1459/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="529.6441454251295" y="478.4746011000605" z="204.69522684440625">
+      <High file="draco_high_tile512/high_1459/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1459/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="522.3069171914287" y="622.6823698127133" z="214.1552638121857">
+      <High file="draco_high_tile512/high_1459/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1459/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1460">
+    <Tile id="1" x="366.73298276422275" y="312.626924905395" z="234.91461695550112">
+      <High file="draco_high_tile512/high_1460/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1460/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="386.24747826310494" y="740.6541753259604" z="235.4914623768232">
+      <High file="draco_high_tile512/high_1460/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1460/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="532.9121900118215" y="475.63884871072355" z="210.55406112948378">
+      <High file="draco_high_tile512/high_1460/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1460/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="523.4892118349054" y="623.4939914867226" z="215.35443528900493">
+      <High file="draco_high_tile512/high_1460/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1460/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1461">
+    <Tile id="1" x="366.09751578341445" y="313.594150241025" z="236.4674646446549">
+      <High file="draco_high_tile512/high_1461/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1461/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="386.9911967934396" y="740.5366155793073" z="235.90630921628392">
+      <High file="draco_high_tile512/high_1461/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1461/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="535.2626410669793" y="474.66231862816943" z="218.66158581269235">
+      <High file="draco_high_tile512/high_1461/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1461/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="523.7194787907655" y="618.6054735354771" z="218.01758380741532">
+      <High file="draco_high_tile512/high_1461/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1461/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1462">
+    <Tile id="1" x="364.77335413953995" y="314.490745291339" z="237.74659844472674">
+      <High file="draco_high_tile512/high_1462/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1462/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="387.7176030636077" y="741.8070299017746" z="236.53406241872642">
+      <High file="draco_high_tile512/high_1462/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1462/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="537.1523358222141" y="475.0803424326893" z="224.38391401097985">
+      <High file="draco_high_tile512/high_1462/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1462/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="524.5833410420355" y="605.2808270470929" z="219.20891356121228">
+      <High file="draco_high_tile512/high_1462/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1462/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1463">
+    <Tile id="1" x="363.69164519693953" y="315.06297141508134" z="239.8129201193318">
+      <High file="draco_high_tile512/high_1463/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1463/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="389.48065634872256" y="742.5657259500533" z="237.96578706844411">
+      <High file="draco_high_tile512/high_1463/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1463/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="538.3455220928121" y="477.0420554805149" z="228.33672276478174">
+      <High file="draco_high_tile512/high_1463/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1463/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="524.2845166892748" y="593.6387249385142" z="223.11745725467404">
+      <High file="draco_high_tile512/high_1463/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1463/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1464">
+    <Tile id="1" x="362.2408485031354" y="316.7639651018161" z="241.92769050487726">
+      <High file="draco_high_tile512/high_1464/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1464/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="390.04545150766245" y="741.6869894400592" z="239.30424190864184">
+      <High file="draco_high_tile512/high_1464/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1464/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="538.620415684945" y="478.69361916739416" z="232.7268473896374">
+      <High file="draco_high_tile512/high_1464/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1464/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="524.4653405368636" y="602.7225164641311" z="226.66191182742867">
+      <High file="draco_high_tile512/high_1464/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1464/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1465">
+    <Tile id="1" x="361.1896964239492" y="317.54454762393965" z="244.04027923974573">
+      <High file="draco_high_tile512/high_1465/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1465/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="389.0694212749886" y="740.2349686076686" z="242.5721859454877">
+      <High file="draco_high_tile512/high_1465/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1465/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="537.2545746281485" y="477.6311773808777" z="237.04189221076888">
+      <High file="draco_high_tile512/high_1465/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1465/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="524.7926500912465" y="592.231425723365" z="232.34828337365636">
+      <High file="draco_high_tile512/high_1465/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1465/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1466">
+    <Tile id="1" x="360.1425778461009" y="318.2836170504011" z="245.8256642296123">
+      <High file="draco_high_tile512/high_1466/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1466/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="388.64029473827213" y="738.2468129106423" z="244.67959312225702">
+      <High file="draco_high_tile512/high_1466/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1466/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="535.1903841298475" y="475.8741512393881" z="242.95277620375387">
+      <High file="draco_high_tile512/high_1466/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1466/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="524.333910937179" y="590.7102254816999" z="241.23824786689215">
+      <High file="draco_high_tile512/high_1466/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1466/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1467">
+    <Tile id="1" x="358.844872241821" y="319.7460549948623" z="247.22257433697632">
+      <High file="draco_high_tile512/high_1467/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1467/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="387.66765129583655" y="736.3047321143923" z="245.99075490462434">
+      <High file="draco_high_tile512/high_1467/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1467/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="533.5727751855899" y="476.6158542927357" z="247.48839936266918">
+      <High file="draco_high_tile512/high_1467/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1467/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="522.1438054265203" y="570.670910660431" z="247.49425189342145">
+      <High file="draco_high_tile512/high_1467/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1467/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1468">
+    <Tile id="1" x="358.042233981806" y="320.2766946819327" z="248.39475596678872">
+      <High file="draco_high_tile512/high_1468/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1468/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="385.1234652125865" y="733.9426275897694" z="248.84045678267526">
+      <High file="draco_high_tile512/high_1468/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1468/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="531.1941018041252" y="475.3708111918136" z="253.9395732361892">
+      <High file="draco_high_tile512/high_1468/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1468/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="521.8509947869809" y="677.9733016376069" z="255.7016935247652">
+      <High file="draco_high_tile512/high_1468/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1468/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1469">
+    <Tile id="1" x="356.8380830062043" y="320.95500241717895" z="249.26851743649647">
+      <High file="draco_high_tile512/high_1469/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1469/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="382.72336142232496" y="733.140672681163" z="251.00249120894722">
+      <High file="draco_high_tile512/high_1469/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1469/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="528.6923147392229" y="477.4132599577193" z="263.83795023288246">
+      <High file="draco_high_tile512/high_1469/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1469/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="522.0350843860257" y="741.4057942052042" z="256.17885556913194">
+      <High file="draco_high_tile512/high_1469/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1469/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1470">
+    <Tile id="1" x="356.6288980629638" y="322.7059699190601" z="250.10359004754818">
+      <High file="draco_high_tile512/high_1470/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1470/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="379.6898055659961" y="732.0536322293709" z="252.47369496101814">
+      <High file="draco_high_tile512/high_1470/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1470/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.7401525411199" y="476.0585381965031" z="273.2606948997288">
+      <High file="draco_high_tile512/high_1470/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1470/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="525.4235834218862" y="786.8515266847994" z="259.81180248055955">
+      <High file="draco_high_tile512/high_1470/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1470/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1471">
+    <Tile id="1" x="356.475032981543" y="323.1640844317367" z="251.33267310913644">
+      <High file="draco_high_tile512/high_1471/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1471/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="376.98316933743047" y="732.0653843001999" z="253.5676479751745">
+      <High file="draco_high_tile512/high_1471/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1471/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.5650793650793" y="476.7289164941339" z="285.62111801242236">
+      <High file="draco_high_tile512/high_1471/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1471/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="520.4453211962451" y="781.5046873622377" z="257.27897010121137">
+      <High file="draco_high_tile512/high_1471/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1471/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1472">
+    <Tile id="1" x="355.8032508237354" y="325.27655275398996" z="252.80146102495385">
+      <High file="draco_high_tile512/high_1472/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1472/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="375.12516257259114" y="732.8095166421494" z="254.48290411125416">
+      <High file="draco_high_tile512/high_1472/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1472/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.0638900205004" y="477.8669443347055" z="299.7813377540787">
+      <High file="draco_high_tile512/high_1472/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1472/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="524.4313906427619" y="796.9094981847456" z="261.6279730684825">
+      <High file="draco_high_tile512/high_1472/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1472/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1473">
+    <Tile id="1" x="356.37856460801" y="327.4369924496294" z="254.09346888301246">
+      <High file="draco_high_tile512/high_1473/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1473/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="374.3316072147495" y="733.6204409254522" z="255.92763774571415">
+      <High file="draco_high_tile512/high_1473/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1473/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.5996121667283" y="483.5715965354748" z="318.84813504735024">
+      <High file="draco_high_tile512/high_1473/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1473/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="527.1148260517151" y="821.8296990410939" z="262.9625239842054">
+      <High file="draco_high_tile512/high_1473/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1473/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1474">
+    <Tile id="1" x="357.271098597715" y="328.8156836339201" z="254.64935172781986">
+      <High file="draco_high_tile512/high_1474/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1474/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="373.3481243063534" y="734.4305945532229" z="256.3615384623631">
+      <High file="draco_high_tile512/high_1474/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1474/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.7856709168185" y="490.0625379477838" z="335.434729811779">
+      <High file="draco_high_tile512/high_1474/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1474/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="524.8372216571981" y="826.2114419945306" z="261.5947338388634">
+      <High file="draco_high_tile512/high_1474/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1474/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1475">
+    <Tile id="1" x="356.46434946556394" y="329.75226235997957" z="254.5766443081581">
+      <High file="draco_high_tile512/high_1475/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1475/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="372.17400463588655" y="735.5572949087685" z="257.16964137361015">
+      <High file="draco_high_tile512/high_1475/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1475/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.1858973963272" y="830.2850010386007" z="265.3533477204488">
+      <High file="draco_high_tile512/high_1475/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1475/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1476">
+    <Tile id="1" x="355.2210059471246" y="329.20473151127436" z="252.8559461966363">
+      <High file="draco_high_tile512/high_1476/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1476/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="368.6586977277584" y="733.5644769043037" z="258.0691211007191">
+      <High file="draco_high_tile512/high_1476/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1476/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.2215446563356" y="832.0458390802027" z="274.21252624086173">
+      <High file="draco_high_tile512/high_1476/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1476/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1477">
+    <Tile id="1" x="352.5247436096888" y="328.7268144104693" z="250.37736914865718">
+      <High file="draco_high_tile512/high_1477/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1477/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="366.7931574775899" y="733.1499506094221" z="258.5874003873649">
+      <High file="draco_high_tile512/high_1477/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1477/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="528.586231784911" y="830.6268108494473" z="283.1405409320271">
+      <High file="draco_high_tile512/high_1477/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1477/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1478">
+    <Tile id="1" x="349.5488850427561" y="329.0466038613487" z="247.68271388678127">
+      <High file="draco_high_tile512/high_1478/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1478/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="362.5082855968226" y="731.1211622946776" z="258.4931732808113">
+      <High file="draco_high_tile512/high_1478/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1478/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="535.2150291031755" y="832.2326291267897" z="290.36471187406653">
+      <High file="draco_high_tile512/high_1478/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1478/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1479">
+    <Tile id="1" x="346.04955528963126" y="330.6761551741933" z="245.16798637371534">
+      <High file="draco_high_tile512/high_1479/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1479/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="357.26007401381537" y="730.66212722381" z="258.4237043660257">
+      <High file="draco_high_tile512/high_1479/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1479/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="531.0825488646162" y="837.6488700618892" z="307.2182128941338">
+      <High file="draco_high_tile512/high_1479/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1479/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1480">
+    <Tile id="1" x="343.6347835746904" y="328.4794383914793" z="241.93599413762124">
+      <High file="draco_high_tile512/high_1480/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1480/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="354.86176466722645" y="731.5823050359626" z="259.5052802593889">
+      <High file="draco_high_tile512/high_1480/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1480/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.1347235147055" y="834.7110246435388" z="315.46265431193564">
+      <High file="draco_high_tile512/high_1480/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1480/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1481">
+    <Tile id="1" x="342.07804077052816" y="327.5670267846969" z="239.33888236856322">
+      <High file="draco_high_tile512/high_1481/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1481/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="352.4526438593634" y="732.2223701748827" z="259.7967442572886">
+      <High file="draco_high_tile512/high_1481/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1481/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.0415565969863" y="829.8516704172328" z="320.3154597480516">
+      <High file="draco_high_tile512/high_1481/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1481/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1482">
+    <Tile id="1" x="340.6607163909152" y="326.87346634536993" z="236.965988958558">
+      <High file="draco_high_tile512/high_1482/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1482/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="351.98211017149185" y="735.1926359041909" z="261.03809349360324">
+      <High file="draco_high_tile512/high_1482/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1482/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.7259347681056" y="819.2540130207245" z="312.6664451558322">
+      <High file="draco_high_tile512/high_1482/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1482/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1483">
+    <Tile id="1" x="339.21175684322424" y="332.1324314930865" z="235.71420393137154">
+      <High file="draco_high_tile512/high_1483/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1483/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="350.90165811775404" y="733.6746005943476" z="261.07261648436224">
+      <High file="draco_high_tile512/high_1483/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1483/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="520.0435056545186" y="802.0168628749113" z="303.7828515853957">
+      <High file="draco_high_tile512/high_1483/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1483/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1484">
+    <Tile id="1" x="338.01189942194395" y="332.0383291158863" z="237.05212850271027">
+      <High file="draco_high_tile512/high_1484/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1484/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="350.698179209719" y="734.2911005740416" z="263.3151533560535">
+      <High file="draco_high_tile512/high_1484/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1484/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1485">
+    <Tile id="1" x="335.3262160008788" y="330.6410006243965" z="238.3677172358913">
+      <High file="draco_high_tile512/high_1485/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1485/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="350.46585672456916" y="735.0239170344561" z="265.29083374213684">
+      <High file="draco_high_tile512/high_1485/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1485/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1486">
+    <Tile id="1" x="331.56087074330975" y="331.1404705036809" z="240.07047167152743">
+      <High file="draco_high_tile512/high_1486/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1486/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="349.60990814768877" y="735.5979220765993" z="267.8129256943452">
+      <High file="draco_high_tile512/high_1486/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1486/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1487">
+    <Tile id="1" x="327.8313817235813" y="332.7111912361352" z="240.23055194706305">
+      <High file="draco_high_tile512/high_1487/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1487/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="348.7098448451133" y="736.4112817639634" z="269.2210050421234">
+      <High file="draco_high_tile512/high_1487/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1487/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1488">
+    <Tile id="1" x="324.79313116592505" y="334.4897559622127" z="239.88352338734677">
+      <High file="draco_high_tile512/high_1488/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1488/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="346.85306045825814" y="737.9633155446447" z="270.86290721191057">
+      <High file="draco_high_tile512/high_1488/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1488/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1489">
+    <Tile id="1" x="321.2915615821053" y="335.9186171028701" z="239.82391952203835">
+      <High file="draco_high_tile512/high_1489/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1489/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="345.5388351141272" y="736.9211078933746" z="271.7692391423983">
+      <High file="draco_high_tile512/high_1489/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1489/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.9655072442416" y="828.3361895331021" z="334.4138328289163">
+      <High file="draco_high_tile512/high_1489/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1489/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1490">
+    <Tile id="1" x="318.8772466186979" y="335.9898212856102" z="239.47455328965228">
+      <High file="draco_high_tile512/high_1490/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1490/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="343.5611667226292" y="739.3989849872364" z="274.3917568872954">
+      <High file="draco_high_tile512/high_1490/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1490/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.7979129059146" y="828.8233130869239" z="337.33841281467016">
+      <High file="draco_high_tile512/high_1490/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1490/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1491">
+    <Tile id="1" x="317.2150752908633" y="334.6120128246163" z="238.15964198765974">
+      <High file="draco_high_tile512/high_1491/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1491/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="342.37439280043657" y="736.9016187521609" z="274.83314940514737">
+      <High file="draco_high_tile512/high_1491/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1491/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="513.9746835443038" y="826.4177215189874" z="336.2911392405063">
+      <High file="draco_high_tile512/high_1491/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1491/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1492">
+    <Tile id="1" x="315.9988002780588" y="333.4358024588062" z="236.53475994390084">
+      <High file="draco_high_tile512/high_1492/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1492/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="341.3562943106278" y="736.0387964707257" z="276.65427662941005">
+      <High file="draco_high_tile512/high_1492/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1492/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1493">
+    <Tile id="1" x="315.9516406865011" y="333.42976974847454" z="234.74123021288824">
+      <High file="draco_high_tile512/high_1493/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1493/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="338.35044442339984" y="733.5032643275001" z="276.7405175385833">
+      <High file="draco_high_tile512/high_1493/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1493/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1494">
+    <Tile id="1" x="316.35348199762973" y="333.87027177043063" z="233.12262368814345">
+      <High file="draco_high_tile512/high_1494/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1494/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="336.3412087429777" y="730.0798783348861" z="276.4568068886784">
+      <High file="draco_high_tile512/high_1494/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1494/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1495">
+    <Tile id="1" x="317.18512683583583" y="333.4846024977095" z="231.74194422387998">
+      <High file="draco_high_tile512/high_1495/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1495/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.98620580651635" y="728.2083410407544" z="276.61522727933027">
+      <High file="draco_high_tile512/high_1495/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1495/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1496">
+    <Tile id="1" x="317.8933981049269" y="335.14891977218815" z="230.67546101051852">
+      <High file="draco_high_tile512/high_1496/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1496/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.575517639842" y="726.2588749896864" z="275.41677236406">
+      <High file="draco_high_tile512/high_1496/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1496/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1497">
+    <Tile id="1" x="319.9243297185834" y="334.47899907153896" z="231.5731821531514">
+      <High file="draco_high_tile512/high_1497/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1497/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.0053604462956" y="725.7437793305368" z="274.53409678939994">
+      <High file="draco_high_tile512/high_1497/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1497/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1498">
+    <Tile id="1" x="320.625510777375" y="332.1676351768115" z="232.55890676020937">
+      <High file="draco_high_tile512/high_1498/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1498/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="336.36858924986825" y="725.8232557714082" z="272.05012584621875">
+      <High file="draco_high_tile512/high_1498/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1498/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1499">
+    <Tile id="1" x="321.94803306825054" y="330.65627102593055" z="234.75262621119495">
+      <High file="draco_high_tile512/high_1499/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1499/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="338.04944361500515" y="727.4261184753414" z="269.84012909888486">
+      <High file="draco_high_tile512/high_1499/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1499/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1500">
+    <Tile id="1" x="322.9816613894315" y="328.0509128065262" z="236.66974438087672">
+      <High file="draco_high_tile512/high_1500/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1500/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="341.8368839263099" y="728.3722515768158" z="269.1887988773429">
+      <High file="draco_high_tile512/high_1500/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1500/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1501">
+    <Tile id="1" x="323.94418028386536" y="325.1100364699029" z="238.99842645875216">
+      <High file="draco_high_tile512/high_1501/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1501/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="343.00820607074263" y="729.8985829090717" z="267.76360558874893">
+      <High file="draco_high_tile512/high_1501/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1501/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.4645182291666" y="808.491794607027" z="365.77593910759265">
+      <High file="draco_high_tile512/high_1501/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1501/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1502">
+    <Tile id="1" x="325.4063043885192" y="323.8171028803072" z="241.2108260386538">
+      <High file="draco_high_tile512/high_1502/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1502/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="344.4331168278764" y="730.2892082619118" z="267.0035707595697">
+      <High file="draco_high_tile512/high_1502/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1502/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.0311416279186" y="800.3806911815296" z="374.83238445628774">
+      <High file="draco_high_tile512/high_1502/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1502/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1503">
+    <Tile id="1" x="326.08660991970066" y="322.6092420100728" z="243.37753967024562">
+      <High file="draco_high_tile512/high_1503/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1503/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="344.14269581079725" y="732.0673229786457" z="266.3481805786864">
+      <High file="draco_high_tile512/high_1503/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1503/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.6752523031138" y="788.3596377851586" z="349.411861380682">
+      <High file="draco_high_tile512/high_1503/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1503/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1504">
+    <Tile id="1" x="326.95469122976243" y="322.29853731660626" z="244.98088616971566">
+      <High file="draco_high_tile512/high_1504/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1504/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="342.4803431802223" y="733.2828525075191" z="266.32436806279225">
+      <High file="draco_high_tile512/high_1504/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1504/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.4467183576447" y="805.2390692808408" z="341.7938833571681">
+      <High file="draco_high_tile512/high_1504/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1504/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1505">
+    <Tile id="1" x="327.69053260447924" y="323.5641667495281" z="246.3569847069261">
+      <High file="draco_high_tile512/high_1505/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1505/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="340.86446996559596" y="732.9342238954572" z="267.17948481331064">
+      <High file="draco_high_tile512/high_1505/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1505/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.7708557924288" y="814.4672813049233" z="319.87504556705596">
+      <High file="draco_high_tile512/high_1505/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1505/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1506">
+    <Tile id="1" x="328.7432320556986" y="326.1555143808201" z="248.0438974645376">
+      <High file="draco_high_tile512/high_1506/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1506/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="339.221667920145" y="731.7861550767435" z="267.5877260956412">
+      <High file="draco_high_tile512/high_1506/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1506/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="528.0735757875049" y="838.4277522315664" z="332.92984058600814">
+      <High file="draco_high_tile512/high_1506/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1506/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1507">
+    <Tile id="1" x="329.2823886885249" y="328.31449358424027" z="249.74522267031523">
+      <High file="draco_high_tile512/high_1507/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1507/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="338.7435755180395" y="733.4669884007192" z="270.13068386207993">
+      <High file="draco_high_tile512/high_1507/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1507/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="529.4098776332149" y="843.6780586418145" z="327.5529464118066">
+      <High file="draco_high_tile512/high_1507/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1507/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1508">
+    <Tile id="1" x="328.9295016337364" y="327.30655122090684" z="252.46571552372598">
+      <High file="draco_high_tile512/high_1508/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1508/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.7439948537444" y="734.2888901829502" z="272.8497271593938">
+      <High file="draco_high_tile512/high_1508/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1508/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.862621539572" y="844.4660684159874" z="323.1165108235677">
+      <High file="draco_high_tile512/high_1508/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1508/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1509">
+    <Tile id="1" x="329.000026631503" y="324.9904385388924" z="257.12528789733153">
+      <High file="draco_high_tile512/high_1509/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1509/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.296511160107" y="734.5122443110861" z="275.48710049971146">
+      <High file="draco_high_tile512/high_1509/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1509/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.6218477136948" y="834.5252102550004" z="276.1064425342891">
+      <High file="draco_high_tile512/high_1509/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1509/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1510">
+    <Tile id="1" x="329.09761107741883" y="323.6008350830239" z="261.38205813479203">
+      <High file="draco_high_tile512/high_1510/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1510/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="332.48972605195627" y="733.7357842470207" z="277.76116004283995">
+      <High file="draco_high_tile512/high_1510/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1510/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1511">
+    <Tile id="1" x="329.1098057795157" y="321.36591366709166" z="266.81976509325904">
+      <High file="draco_high_tile512/high_1511/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1511/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="329.83348067584564" y="732.6447068526279" z="280.5722360882425">
+      <High file="draco_high_tile512/high_1511/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1511/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1512">
+    <Tile id="1" x="328.65266539454444" y="320.904936426042" z="270.9435274885653">
+      <High file="draco_high_tile512/high_1512/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1512/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="327.94928562422496" y="731.8995940579832" z="282.93432600119917">
+      <High file="draco_high_tile512/high_1512/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1512/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1513">
+    <Tile id="1" x="327.58930388935136" y="320.6831604467511" z="273.77030812043165">
+      <High file="draco_high_tile512/high_1513/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1513/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="326.33913099601233" y="729.4273015129032" z="284.6538198927835">
+      <High file="draco_high_tile512/high_1513/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1513/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1514">
+    <Tile id="1" x="325.34243418494964" y="321.2632768626969" z="275.55997901117087">
+      <High file="draco_high_tile512/high_1514/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1514/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="325.1436780175913" y="727.8389823681316" z="286.931203701329">
+      <High file="draco_high_tile512/high_1514/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1514/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1515">
+    <Tile id="1" x="322.6073671035417" y="321.49461642383307" z="277.04937520040164">
+      <High file="draco_high_tile512/high_1515/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1515/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="324.6162225122267" y="726.913338426001" z="288.28596139319">
+      <High file="draco_high_tile512/high_1515/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1515/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1516">
+    <Tile id="1" x="319.68681867987164" y="322.3310320977791" z="277.7749739032907">
+      <High file="draco_high_tile512/high_1516/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1516/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="326.46128573852735" y="724.7744338729632" z="289.9858035252306">
+      <High file="draco_high_tile512/high_1516/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1516/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1517">
+    <Tile id="1" x="317.1274466407047" y="323.7229382690137" z="279.4106459389301">
+      <High file="draco_high_tile512/high_1517/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1517/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="327.79991135331375" y="723.7158385094398" z="290.9765012964476">
+      <High file="draco_high_tile512/high_1517/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1517/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1518">
+    <Tile id="1" x="315.4000334764674" y="323.0248645557212" z="282.4600342922358">
+      <High file="draco_high_tile512/high_1518/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1518/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="328.7754225057996" y="724.1006262425665" z="290.8968517919017">
+      <High file="draco_high_tile512/high_1518/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1518/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1519">
+    <Tile id="1" x="313.3587294803753" y="323.3013278871418" z="285.677255369733">
+      <High file="draco_high_tile512/high_1519/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1519/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="328.82522462878296" y="726.147524739894" z="291.19162218139553">
+      <High file="draco_high_tile512/high_1519/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1519/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1520">
+    <Tile id="1" x="311.98022808160135" y="322.9357432988094" z="289.40479284199535">
+      <High file="draco_high_tile512/high_1520/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1520/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="330.0474123589402" y="724.5593864125694" z="290.59238413781407">
+      <High file="draco_high_tile512/high_1520/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1520/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1521">
+    <Tile id="1" x="310.53768980462263" y="324.19903100568933" z="291.67484557290487">
+      <High file="draco_high_tile512/high_1521/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1521/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="330.1262608468327" y="725.5584489518304" z="291.31716679421436">
+      <High file="draco_high_tile512/high_1521/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1521/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1522">
+    <Tile id="1" x="309.07681329700944" y="323.85948529368443" z="293.2059007540869">
+      <High file="draco_high_tile512/high_1522/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1522/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="331.26189201948694" y="727.3891743488499" z="290.907871015858">
+      <High file="draco_high_tile512/high_1522/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1522/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1523">
+    <Tile id="1" x="307.8132329117663" y="325.6161628188671" z="293.74468758897814">
+      <High file="draco_high_tile512/high_1523/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1523/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="332.3545486919331" y="729.9881669191325" z="290.7149418474862">
+      <High file="draco_high_tile512/high_1523/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1523/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1524">
+    <Tile id="1" x="307.08926687297316" y="326.75063652376616" z="293.6858349025829">
+      <High file="draco_high_tile512/high_1524/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1524/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.37779303199386" y="731.5432418572891" z="288.92903444517015">
+      <High file="draco_high_tile512/high_1524/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1524/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1525">
+    <Tile id="1" x="306.1687981179616" y="326.76919922310003" z="293.13429115310805">
+      <High file="draco_high_tile512/high_1525/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1525/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.31967377435313" y="735.7418429628857" z="288.0539757825585">
+      <High file="draco_high_tile512/high_1525/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1525/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1526">
+    <Tile id="1" x="304.89945199692437" y="326.4886610062211" z="293.12603049300986">
+      <High file="draco_high_tile512/high_1526/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1526/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.3883655061927" y="737.6803297154688" z="285.87110507668694">
+      <High file="draco_high_tile512/high_1526/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1526/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1527">
+    <Tile id="1" x="303.8940864704291" y="326.5602334350404" z="293.05306173144794">
+      <High file="draco_high_tile512/high_1527/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1527/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.705966279619" y="739.1290900436545" z="283.1462349952596">
+      <High file="draco_high_tile512/high_1527/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1527/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.6071499415806" y="778.8928593226841" z="303.3392857142857">
+      <High file="draco_high_tile512/high_1527/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1527/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1528">
+    <Tile id="1" x="303.29595007660885" y="326.6052688216652" z="292.5428450841992">
+      <High file="draco_high_tile512/high_1528/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1528/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.362517664164" y="740.2581345726917" z="280.8092360033218">
+      <High file="draco_high_tile512/high_1528/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1528/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.0034410404586" y="793.1099366912317" z="294.9071675199004">
+      <High file="draco_high_tile512/high_1528/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1528/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1529">
+    <Tile id="1" x="303.14488413551504" y="328.5168387191921" z="290.74361819040416">
+      <High file="draco_high_tile512/high_1529/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1529/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.8557836819849" y="740.6211253800248" z="277.20318563151693">
+      <High file="draco_high_tile512/high_1529/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1529/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.6605689372492" y="804.3201009612321" z="280.3312842692804">
+      <High file="draco_high_tile512/high_1529/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1529/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1530">
+    <Tile id="1" x="302.84913513734335" y="331.49623517840746" z="288.2239126388162">
+      <High file="draco_high_tile512/high_1530/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1530/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.52439152966963" y="740.1274880014134" z="274.3610544642851">
+      <High file="draco_high_tile512/high_1530/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1530/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.1052278735642" y="821.1502208871631" z="272.04756093308555">
+      <High file="draco_high_tile512/high_1530/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1530/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1531">
+    <Tile id="1" x="302.99478720143134" y="333.01466447225584" z="284.2939027398562">
+      <High file="draco_high_tile512/high_1531/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1531/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.9938148267613" y="740.5136222745623" z="269.797190468088">
+      <High file="draco_high_tile512/high_1531/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1531/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.8527356893709" y="829.9505285130869" z="273.933178476768">
+      <High file="draco_high_tile512/high_1531/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1531/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1532">
+    <Tile id="1" x="302.7595322811585" y="334.7782450501909" z="280.67593794989386">
+      <High file="draco_high_tile512/high_1532/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1532/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="332.54166810586344" y="738.7195634870177" z="265.9771471820073">
+      <High file="draco_high_tile512/high_1532/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1532/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.7058823529412" y="828.1960784313726" z="273.27449424594056">
+      <High file="draco_high_tile512/high_1532/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1532/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1533">
+    <Tile id="1" x="302.7833778883983" y="334.59779329613434" z="276.39905424764146">
+      <High file="draco_high_tile512/high_1533/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1533/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.5970140717606" y="739.0294675678184" z="260.1793662860709">
+      <High file="draco_high_tile512/high_1533/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1533/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.0" y="822.6666937934028" z="255.0000288221571">
+      <High file="draco_high_tile512/high_1533/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1533/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1534">
+    <Tile id="1" x="302.68070874687044" y="333.777369384459" z="270.7045419035737">
+      <High file="draco_high_tile512/high_1534/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1534/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.25123228898394" y="738.0285644735212" z="256.772040066644">
+      <High file="draco_high_tile512/high_1534/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1534/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="513.0" y="935.5714285714286" z="327.0">
+      <High file="draco_high_tile512/high_1534/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1534/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1535">
+    <Tile id="1" x="301.21984850839453" y="335.0435142279814" z="266.95490067092294">
+      <High file="draco_high_tile512/high_1535/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1535/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.231822052169" y="737.6176431925704" z="252.79383813892483">
+      <High file="draco_high_tile512/high_1535/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1535/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1536">
+    <Tile id="1" x="300.0864145164048" y="334.7918420837112" z="261.73558035979164">
+      <High file="draco_high_tile512/high_1536/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1536/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.32464806226756" y="734.4267995227823" z="247.99101921245824">
+      <High file="draco_high_tile512/high_1536/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1536/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1537">
+    <Tile id="1" x="298.2385932211258" y="335.52879128102717" z="258.0317873979004">
+      <High file="draco_high_tile512/high_1537/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1537/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.68858708061947" y="729.5753981209767" z="242.78279334218104">
+      <High file="draco_high_tile512/high_1537/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1537/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.082538735458" y="888.5669853234217" z="283.0295760490441">
+      <High file="draco_high_tile512/high_1537/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1537/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1538">
+    <Tile id="1" x="295.1080861669665" y="336.4976548165678" z="254.5336839961114">
+      <High file="draco_high_tile512/high_1538/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1538/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.6121421673464" y="726.0545801254793" z="238.0670551878656">
+      <High file="draco_high_tile512/high_1538/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1538/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.5316882833631" y="927.8315118379902" z="274.8454356363052">
+      <High file="draco_high_tile512/high_1538/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1538/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1539">
+    <Tile id="1" x="292.27449807770375" y="337.2983910642958" z="251.6542674781657">
+      <High file="draco_high_tile512/high_1539/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1539/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="338.7181842651088" y="723.3406145211211" z="233.2178715695585">
+      <High file="draco_high_tile512/high_1539/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1539/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.2742184063504" y="950.5116273840317" z="266.80426600630165">
+      <High file="draco_high_tile512/high_1539/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1539/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1540">
+    <Tile id="1" x="289.49039431779534" y="338.2697492196827" z="250.30784031885267">
+      <High file="draco_high_tile512/high_1540/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1540/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="340.7274105064335" y="721.1108369534869" z="228.3255438914065">
+      <High file="draco_high_tile512/high_1540/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1540/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.6153715736846" y="966.5811939728566" z="257.45298545380945">
+      <High file="draco_high_tile512/high_1540/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1540/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1541">
+    <Tile id="1" x="288.0409827370842" y="339.4809113739376" z="248.5431537369237">
+      <High file="draco_high_tile512/high_1541/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1541/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="342.9123611481936" y="720.131563688845" z="224.30029161275863">
+      <High file="draco_high_tile512/high_1541/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1541/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.7154997538745" y="956.2113806251588" z="249.61792612463478">
+      <High file="draco_high_tile512/high_1541/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1541/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1542">
+    <Tile id="1" x="287.5704172905439" y="339.5094310022645" z="246.1018753959256">
+      <High file="draco_high_tile512/high_1542/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1542/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="345.3085937314478" y="719.7872064884986" z="221.75905929945117">
+      <High file="draco_high_tile512/high_1542/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1542/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.1889400921659" y="933.6543778801844" z="239.4147465437788">
+      <High file="draco_high_tile512/high_1542/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1542/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1543">
+    <Tile id="1" x="288.1719396575331" y="340.1734132708231" z="243.367762769278">
+      <High file="draco_high_tile512/high_1543/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1543/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="346.9236627709196" y="720.271649004031" z="219.7339722048017">
+      <High file="draco_high_tile512/high_1543/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1543/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.7737805120546" y="901.2217523220977" z="240.10412521707525">
+      <High file="draco_high_tile512/high_1543/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1543/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1544">
+    <Tile id="1" x="290.09946598736707" y="342.65204995750963" z="242.42299905860898">
+      <High file="draco_high_tile512/high_1544/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1544/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="347.73974445498595" y="722.4449858456322" z="218.8715793637544">
+      <High file="draco_high_tile512/high_1544/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1544/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.1534372158152" y="871.841217848359" z="253.02647472563245">
+      <High file="draco_high_tile512/high_1544/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1544/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1545">
+    <Tile id="1" x="292.29273665239884" y="343.99920643641485" z="240.06301854985693">
+      <High file="draco_high_tile512/high_1545/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1545/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="349.749397416299" y="725.1804194962017" z="218.22599087393556">
+      <High file="draco_high_tile512/high_1545/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1545/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.7" y="825.9" z="297.5">
+      <High file="draco_high_tile512/high_1545/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1545/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1546">
+    <Tile id="1" x="295.1462079636373" y="345.07020597432324" z="237.4727202407553">
+      <High file="draco_high_tile512/high_1546/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1546/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="352.43976600359076" y="729.3629108849431" z="217.03183276487837">
+      <High file="draco_high_tile512/high_1546/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1546/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1547">
+    <Tile id="1" x="298.18814143547667" y="345.2006735700825" z="234.68569113932864">
+      <High file="draco_high_tile512/high_1547/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1547/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="355.95564642543525" y="732.3603270482764" z="216.40164826084163">
+      <High file="draco_high_tile512/high_1547/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1547/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.2033810499238" y="792.835907726753" z="274.70581297835685">
+      <High file="draco_high_tile512/high_1547/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1547/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1548">
+    <Tile id="1" x="301.2340790369296" y="345.202162432327" z="231.38197642983602">
+      <High file="draco_high_tile512/high_1548/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1548/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="354.28510537834353" y="733.4547499161481" z="215.5518730357173">
+      <High file="draco_high_tile512/high_1548/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1548/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.4333737871724" y="803.535960841025" z="258.98805657663655">
+      <High file="draco_high_tile512/high_1548/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1548/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1549">
+    <Tile id="1" x="304.7447117773552" y="344.1412414763341" z="228.0989917838045">
+      <High file="draco_high_tile512/high_1549/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1549/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="354.6997173935699" y="734.4438201035183" z="215.47829860513582">
+      <High file="draco_high_tile512/high_1549/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1549/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="534.4747588499314" y="832.0939643861752" z="256.5561001469045">
+      <High file="draco_high_tile512/high_1549/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1549/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1550">
+    <Tile id="1" x="308.5994110073488" y="342.9038754314475" z="224.96610090187176">
+      <High file="draco_high_tile512/high_1550/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1550/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="357.133880769118" y="738.6688687613319" z="214.14964236089907">
+      <High file="draco_high_tile512/high_1550/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1550/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="543.4337897431775" y="862.6555962807869" z="252.60168201911608">
+      <High file="draco_high_tile512/high_1550/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1550/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1551">
+    <Tile id="1" x="313.20482856846724" y="342.1325910497763" z="222.03253655424712">
+      <High file="draco_high_tile512/high_1551/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1551/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="358.4940346135991" y="740.1591141383224" z="214.6434988517131">
+      <High file="draco_high_tile512/high_1551/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1551/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="538.7820525313913" y="888.0427948301761" z="245.53833118170073">
+      <High file="draco_high_tile512/high_1551/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1551/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1552">
+    <Tile id="1" x="318.32287865015536" y="340.39570947127373" z="218.85214480730448">
+      <High file="draco_high_tile512/high_1552/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1552/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="359.88923711371376" y="742.1748160441792" z="214.32657703723854">
+      <High file="draco_high_tile512/high_1552/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1552/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="535.0069762399615" y="897.7836306980612" z="242.32744629645643">
+      <High file="draco_high_tile512/high_1552/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1552/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1553">
+    <Tile id="1" x="323.4640833396709" y="339.57684625997683" z="216.39679740792468">
+      <High file="draco_high_tile512/high_1553/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1553/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="360.5816309064129" y="743.378558896535" z="214.7407970743697">
+      <High file="draco_high_tile512/high_1553/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1553/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="539.2670714609757" y="901.8359928127434" z="236.7399261266148">
+      <High file="draco_high_tile512/high_1553/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1553/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1554">
+    <Tile id="1" x="328.9082603209748" y="336.39453988671397" z="213.63092176644048">
+      <High file="draco_high_tile512/high_1554/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1554/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="360.47759679035215" y="744.4566795469049" z="215.32710873035694">
+      <High file="draco_high_tile512/high_1554/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1554/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="542.3237805189787" y="908.9185158590691" z="229.4876766474091">
+      <High file="draco_high_tile512/high_1554/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1554/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1555">
+    <Tile id="1" x="334.65875699289376" y="335.6905215903242" z="211.60259187928713">
+      <High file="draco_high_tile512/high_1555/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1555/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="360.8891942538262" y="744.7446079008479" z="216.41240511843696">
+      <High file="draco_high_tile512/high_1555/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1555/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="546.8319523140551" y="924.1410481380587" z="226.6936094575109">
+      <High file="draco_high_tile512/high_1555/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1555/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1556">
+    <Tile id="1" x="339.0149203112807" y="335.6151899715518" z="209.56258117382723">
+      <High file="draco_high_tile512/high_1556/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1556/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="359.1972058710157" y="741.3178865446122" z="216.93510172013896">
+      <High file="draco_high_tile512/high_1556/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1556/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="547.4920949016343" y="928.2463689138773" z="224.00950662841112">
+      <High file="draco_high_tile512/high_1556/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1556/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1557">
+    <Tile id="1" x="343.0076588172986" y="334.35921480287595" z="208.14226376964086">
+      <High file="draco_high_tile512/high_1557/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1557/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="357.86751561275116" y="739.1555947625827" z="217.92313051195384">
+      <High file="draco_high_tile512/high_1557/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1557/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="544.2539755046218" y="931.3067211792242" z="219.75490277974507">
+      <High file="draco_high_tile512/high_1557/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1557/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1558">
+    <Tile id="1" x="347.34761874340427" y="335.9932703479718" z="206.96306596124177">
+      <High file="draco_high_tile512/high_1558/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1558/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="357.1679839744302" y="738.6768467709081" z="219.78302929509903">
+      <High file="draco_high_tile512/high_1558/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1558/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.3672099113464" y="435.1718966960907" z="210.75783574581146">
+      <High file="draco_high_tile512/high_1558/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1558/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="538.6651797596376" y="924.2093218270153" z="218.28908504998054">
+      <High file="draco_high_tile512/high_1558/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1558/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1559">
+    <Tile id="1" x="347.3667036763748" y="336.8007251476903" z="205.8404375069878">
+      <High file="draco_high_tile512/high_1559/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1559/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="356.5484141925117" y="737.6730557324975" z="220.65412292603062">
+      <High file="draco_high_tile512/high_1559/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1559/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.008233347787" y="447.4149342944148" z="210.6328317367939">
+      <High file="draco_high_tile512/high_1559/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1559/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="536.7904182788553" y="926.6010019325556" z="215.33834090523598">
+      <High file="draco_high_tile512/high_1559/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1559/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1560">
+    <Tile id="1" x="348.5790832271507" y="336.54066577998805" z="204.61414456599297">
+      <High file="draco_high_tile512/high_1560/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1560/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="355.86463821840414" y="734.9529778621439" z="221.73306473214487">
+      <High file="draco_high_tile512/high_1560/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1560/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.3237760346227" y="456.0922369488775" z="213.11008926156342">
+      <High file="draco_high_tile512/high_1560/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1560/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="533.3275212064091" y="926.839930882815" z="215.52984605717876">
+      <High file="draco_high_tile512/high_1560/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1560/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1561">
+    <Tile id="1" x="350.439649589685" y="336.98725999733756" z="204.48681235740582">
+      <High file="draco_high_tile512/high_1561/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1561/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="355.91062413742594" y="733.7476998374698" z="222.67356831897078">
+      <High file="draco_high_tile512/high_1561/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1561/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.6501209589759" y="461.52980634233126" z="212.1550264964442">
+      <High file="draco_high_tile512/high_1561/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1561/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="532.10377919319" y="922.1085780689888" z="222.61519241333008">
+      <High file="draco_high_tile512/high_1561/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1561/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1562">
+    <Tile id="1" x="351.243765514177" y="335.68643895148034" z="205.3104769847006">
+      <High file="draco_high_tile512/high_1562/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1562/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="355.3448559448633" y="730.2977526842812" z="224.30555720062958">
+      <High file="draco_high_tile512/high_1562/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1562/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.8552575767587" y="466.80321438990603" z="200.55756738820207">
+      <High file="draco_high_tile512/high_1562/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1562/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="522.9022317263159" y="925.2351313675985" z="227.69308649195304">
+      <High file="draco_high_tile512/high_1562/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1562/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1563">
+    <Tile id="1" x="352.6711269036303" y="332.3471112006759" z="206.40064573958898">
+      <High file="draco_high_tile512/high_1563/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1563/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="354.5738776233312" y="727.7936799193501" z="226.16066850917346">
+      <High file="draco_high_tile512/high_1563/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1563/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.7439486072421" y="470.2645632126626" z="188.61333806655827">
+      <High file="draco_high_tile512/high_1563/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1563/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1564">
+    <Tile id="1" x="352.547310785445" y="329.55530736271504" z="208.05962605780036">
+      <High file="draco_high_tile512/high_1564/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1564/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="354.2838806151865" y="724.585253641224" z="228.3889992603983">
+      <High file="draco_high_tile512/high_1564/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1564/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.4364396194118" y="473.66778664577123" z="176.8072385730615">
+      <High file="draco_high_tile512/high_1564/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1564/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="513.0314907764825" y="513.0078682486467" z="185.78740614042508">
+      <High file="draco_high_tile512/high_1564/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1564/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1565">
+    <Tile id="1" x="353.1708299939926" y="328.1963823282776" z="209.86028681472783">
+      <High file="draco_high_tile512/high_1565/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1565/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="354.2369780853381" y="723.4526057198831" z="230.10640781531518">
+      <High file="draco_high_tile512/high_1565/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1565/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.6756360691771" y="476.105763337289" z="166.23294261882887">
+      <High file="draco_high_tile512/high_1565/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1565/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="515.5648320705453" y="516.0014858558529" z="170.25336032190904">
+      <High file="draco_high_tile512/high_1565/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1565/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1566">
+    <Tile id="1" x="353.3977479644587" y="327.00596754806844" z="210.29069634094876">
+      <High file="draco_high_tile512/high_1566/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1566/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="353.9339723261289" y="721.6882619986446" z="232.8251233922137">
+      <High file="draco_high_tile512/high_1566/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1566/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="527.294471130829" y="478.2255070894822" z="156.82611689603345">
+      <High file="draco_high_tile512/high_1566/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1566/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="516.4925290895369" y="516.9203626628641" z="163.46708745612207">
+      <High file="draco_high_tile512/high_1566/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1566/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1567">
+    <Tile id="1" x="353.4044790050995" y="327.09696646465636" z="210.52753122618117">
+      <High file="draco_high_tile512/high_1567/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1567/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="354.658949031357" y="722.8488969729734" z="235.22310723874938">
+      <High file="draco_high_tile512/high_1567/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1567/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="527.4126558075922" y="480.5944761825324" z="150.29753637700665">
+      <High file="draco_high_tile512/high_1567/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1567/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="516.8207220556252" y="517.0129513683547" z="161.52989044797374">
+      <High file="draco_high_tile512/high_1567/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1567/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1568">
+    <Tile id="1" x="354.61993545584886" y="326.73278154775227" z="212.13644749157868">
+      <High file="draco_high_tile512/high_1568/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1568/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="356.63456959026695" y="724.3369879145448" z="237.7834393716246">
+      <High file="draco_high_tile512/high_1568/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1568/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.9319201314524" y="483.9033303054612" z="145.87252586174034">
+      <High file="draco_high_tile512/high_1568/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1568/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="516.025861181755" y="515.960288554779" z="164.25538510181866">
+      <High file="draco_high_tile512/high_1568/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1568/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1569">
+    <Tile id="1" x="355.1829313153684" y="326.7327790068773" z="214.43104136880737">
+      <High file="draco_high_tile512/high_1569/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1569/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="358.72508003046755" y="725.838544383383" z="240.1863021718532">
+      <High file="draco_high_tile512/high_1569/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1569/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.5544596256118" y="486.74033812005837" z="146.63844603205303">
+      <High file="draco_high_tile512/high_1569/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1569/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="514.1072454563665" y="514.3333556702087" z="169.21911902083104">
+      <High file="draco_high_tile512/high_1569/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1569/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1570">
+    <Tile id="1" x="356.3003172998845" y="327.10651019180347" z="216.34133311357886">
+      <High file="draco_high_tile512/high_1570/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1570/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="361.09080374729615" y="726.7497520316759" z="241.84761013799297">
+      <High file="draco_high_tile512/high_1570/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1570/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.7896247092418" y="486.9839097805323" z="151.6036608125748">
+      <High file="draco_high_tile512/high_1570/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1570/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1571">
+    <Tile id="1" x="357.52057919286494" y="327.2900807623175" z="218.44914718734535">
+      <High file="draco_high_tile512/high_1571/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1571/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="363.74098032313714" y="728.8241229128431" z="243.36436270430545">
+      <High file="draco_high_tile512/high_1571/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1571/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.2633333924173" y="483.19879608269014" z="158.9716484390208">
+      <High file="draco_high_tile512/high_1571/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1571/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="512.7230651120105" y="744.3605346679688" z="255.5424111607563">
+      <High file="draco_high_tile512/high_1571/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1571/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1572">
+    <Tile id="1" x="358.32917644720663" y="327.5530747347393" z="220.11042407042456">
+      <High file="draco_high_tile512/high_1572/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1572/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="365.7508595819653" y="731.0848111617038" z="245.8200035384702">
+      <High file="draco_high_tile512/high_1572/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1572/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.0781776371462" y="474.6939053525027" z="170.98635746327741">
+      <High file="draco_high_tile512/high_1572/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1572/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="517.8153439720205" y="863.620953246251" z="297.2918960008045">
+      <High file="draco_high_tile512/high_1572/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1572/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1573">
+    <Tile id="1" x="358.33379100674426" y="326.758112146219" z="222.63849156334376">
+      <High file="draco_high_tile512/high_1573/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1573/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="366.8480242225699" y="731.9982004672761" z="247.7931502869605">
+      <High file="draco_high_tile512/high_1573/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1573/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.8992329240547" y="472.3714799398648" z="181.75020686648907">
+      <High file="draco_high_tile512/high_1573/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1573/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="525.755090821385" y="893.0806943756221" z="308.43238540641033">
+      <High file="draco_high_tile512/high_1573/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1573/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1574">
+    <Tile id="1" x="358.0454614651427" y="325.2185698723704" z="224.74188727984654">
+      <High file="draco_high_tile512/high_1574/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1574/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="366.4750958210558" y="732.2330527256064" z="248.19061264668176">
+      <High file="draco_high_tile512/high_1574/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1574/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.1646915008217" y="472.2941439210859" z="188.47795427292684">
+      <High file="draco_high_tile512/high_1574/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1574/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="524.7555865996295" y="902.9427596666717" z="303.61158071222115">
+      <High file="draco_high_tile512/high_1574/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1574/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1575">
+    <Tile id="1" x="358.3092182893129" y="325.1847252232667" z="227.7850869863101">
+      <High file="draco_high_tile512/high_1575/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1575/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="368.13133107755084" y="733.4510045689465" z="249.86072837712442">
+      <High file="draco_high_tile512/high_1575/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1575/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.9484776957142" y="472.17397193164516" z="189.84791891946273">
+      <High file="draco_high_tile512/high_1575/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1575/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="534.1905393532456" y="922.7267450865193" z="303.6102701669464">
+      <High file="draco_high_tile512/high_1575/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1575/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1576">
+    <Tile id="1" x="358.760574183566" y="325.4910324990469" z="230.4683949434894">
+      <High file="draco_high_tile512/high_1576/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1576/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="369.00410839736765" y="735.3077127200963" z="251.5671748916326">
+      <High file="draco_high_tile512/high_1576/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1576/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.6524491121852" y="472.2527874595663" z="188.5663899974446">
+      <High file="draco_high_tile512/high_1576/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1576/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="531.4426836654766" y="932.9984782660052" z="297.41554942029586">
+      <High file="draco_high_tile512/high_1576/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1576/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1577">
+    <Tile id="1" x="358.70760825056726" y="325.77282545616157" z="232.90742845225594">
+      <High file="draco_high_tile512/high_1577/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1577/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="369.528890662187" y="735.8143256482163" z="252.60738301970235">
+      <High file="draco_high_tile512/high_1577/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1577/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.2188320307434" y="471.8381095530739" z="185.75842087549032">
+      <High file="draco_high_tile512/high_1577/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1577/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="528.2583563012982" y="942.197595463412" z="292.4339922845193">
+      <High file="draco_high_tile512/high_1577/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1577/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1578">
+    <Tile id="1" x="359.0773868054143" y="328.08624517963807" z="235.26549704884408">
+      <High file="draco_high_tile512/high_1578/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1578/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="369.82545958548053" y="737.0154804986777" z="254.54765594697997">
+      <High file="draco_high_tile512/high_1578/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1578/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.9732816438279" y="468.4967691812171" z="182.66800701544787">
+      <High file="draco_high_tile512/high_1578/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1578/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="526.5786069429104" y="960.358833243782" z="274.8985587732472">
+      <High file="draco_high_tile512/high_1578/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1578/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1579">
+    <Tile id="1" x="358.66859061946815" y="329.8236368114325" z="236.5463962655268">
+      <High file="draco_high_tile512/high_1579/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1579/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="369.68692606022995" y="735.5980858645611" z="256.5042774429606">
+      <High file="draco_high_tile512/high_1579/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1579/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.6511780527889" y="463.5982134816073" z="176.61754068762838">
+      <High file="draco_high_tile512/high_1579/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1579/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="525.1205438030653" y="946.138456234262" z="258.5819640776999">
+      <High file="draco_high_tile512/high_1579/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1579/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1580">
+    <Tile id="1" x="357.9757510342601" y="331.7102574826395" z="237.47673016850393">
+      <High file="draco_high_tile512/high_1580/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1580/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="368.13346449600215" y="732.0058900670134" z="258.539816892813">
+      <High file="draco_high_tile512/high_1580/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1580/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.8588217506596" y="459.93636890803424" z="163.9714579994488">
+      <High file="draco_high_tile512/high_1580/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1580/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="522.1007443080205" y="945.8959956257916" z="246.2661535256794">
+      <High file="draco_high_tile512/high_1580/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1580/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1581">
+    <Tile id="1" x="356.0063681014189" y="331.8740664130445" z="237.6741952719004">
+      <High file="draco_high_tile512/high_1581/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1581/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="367.01110577317576" y="728.8708363305857" z="261.28639821557914">
+      <High file="draco_high_tile512/high_1581/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1581/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.8035060337612" y="924.2556602841332" z="273.4107580639067">
+      <High file="draco_high_tile512/high_1581/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1581/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1582">
+    <Tile id="1" x="353.49311950706806" y="333.5118214122412" z="238.3488714934146">
+      <High file="draco_high_tile512/high_1582/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1582/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="365.6201111708569" y="726.5325425691227" z="263.63365262375646">
+      <High file="draco_high_tile512/high_1582/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1582/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.2301587301587" y="926.8333333333334" z="280.26190476190476">
+      <High file="draco_high_tile512/high_1582/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1582/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1583">
+    <Tile id="1" x="350.68218610047273" y="333.1881598207192" z="239.6315200231169">
+      <High file="draco_high_tile512/high_1583/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1583/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="362.7232469764875" y="722.8688991625089" z="266.50905740631674">
+      <High file="draco_high_tile512/high_1583/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1583/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="513.1298883611506" y="932.2337638557731" z="276.03895826463577">
+      <High file="draco_high_tile512/high_1583/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1583/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1584">
+    <Tile id="1" x="348.1660968459883" y="334.32651689939445" z="241.82309005497302">
+      <High file="draco_high_tile512/high_1584/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1584/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="361.26907222395994" y="720.7487885078098" z="269.14633347928486">
+      <High file="draco_high_tile512/high_1584/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1584/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.2854265848796" y="919.0728815714518" z="271.06874046325686">
+      <High file="draco_high_tile512/high_1584/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1584/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1585">
+    <Tile id="1" x="345.15846481803817" y="333.42292825208233" z="245.11926787701094">
+      <High file="draco_high_tile512/high_1585/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1585/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="360.29766196400664" y="719.2584582418101" z="271.75286203350817">
+      <High file="draco_high_tile512/high_1585/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1585/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1586">
+    <Tile id="1" x="342.17953756840564" y="331.4130234010528" z="248.83112731384145">
+      <High file="draco_high_tile512/high_1586/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1586/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="358.3382023852259" y="718.1380679246591" z="273.85754466791417">
+      <High file="draco_high_tile512/high_1586/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1586/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1587">
+    <Tile id="1" x="339.81102186672734" y="330.95151117303163" z="252.59505324639682">
+      <High file="draco_high_tile512/high_1587/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1587/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="357.71478744287714" y="717.8841867009859" z="275.4190415594826">
+      <High file="draco_high_tile512/high_1587/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1587/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1588">
+    <Tile id="1" x="338.127325590955" y="330.18433944166975" z="255.70958207681502">
+      <High file="draco_high_tile512/high_1588/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1588/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="358.0561523507353" y="719.8413861428027" z="275.8390517311074">
+      <High file="draco_high_tile512/high_1588/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1588/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1589">
+    <Tile id="1" x="336.61114965883735" y="329.0694006890702" z="259.49244704374564">
+      <High file="draco_high_tile512/high_1589/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1589/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="359.2211954572834" y="722.5114047275997" z="276.4314607721304">
+      <High file="draco_high_tile512/high_1589/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1589/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1590">
+    <Tile id="1" x="335.30495281945883" y="327.93489797465793" z="262.89276854197806">
+      <High file="draco_high_tile512/high_1590/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1590/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="359.89691841213016" y="723.4450753844902" z="277.398742113143">
+      <High file="draco_high_tile512/high_1590/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1590/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1591">
+    <Tile id="1" x="333.7941919608342" y="326.6963966435411" z="266.59049972655083">
+      <High file="draco_high_tile512/high_1591/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1591/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="360.6983542730171" y="725.1318138295655" z="278.6788605887214">
+      <High file="draco_high_tile512/high_1591/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1591/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.0208625793457" y="801.6944732666016" z="277.18752013312445">
+      <High file="draco_high_tile512/high_1591/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1591/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1592">
+    <Tile id="1" x="332.32188289947925" y="326.50637458595895" z="270.9149685460176">
+      <High file="draco_high_tile512/high_1592/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1592/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="362.1408286181971" y="725.2604151620468" z="280.9119797703301">
+      <High file="draco_high_tile512/high_1592/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1592/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.1473860891242" y="794.5315859075179" z="298.1894851416872">
+      <High file="draco_high_tile512/high_1592/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1592/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1593">
+    <Tile id="1" x="330.6426482582125" y="326.4948199762398" z="274.44452255276445">
+      <High file="draco_high_tile512/high_1593/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1593/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="362.9219791485668" y="724.4533367465785" z="283.1280229274663">
+      <High file="draco_high_tile512/high_1593/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1593/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.7081869942801" y="793.1939284344109" z="316.3173675848513">
+      <High file="draco_high_tile512/high_1593/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1593/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1594">
+    <Tile id="1" x="329.4738299191367" y="325.33782160529904" z="277.0609548842023">
+      <High file="draco_high_tile512/high_1594/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1594/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="363.29221232729594" y="724.7352910085702" z="286.6507598932984">
+      <High file="draco_high_tile512/high_1594/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1594/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="529.0779780849399" y="808.7251152693441" z="330.9616318673068">
+      <High file="draco_high_tile512/high_1594/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1594/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1595">
+    <Tile id="1" x="328.5769834961645" y="326.2036596244671" z="280.20238073006857">
+      <High file="draco_high_tile512/high_1595/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1595/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="362.1808394269911" y="723.5072401552754" z="289.51895396033837">
+      <High file="draco_high_tile512/high_1595/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1595/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="528.7441445053204" y="815.2621889078715" z="335.0624416125917">
+      <High file="draco_high_tile512/high_1595/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1595/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1596">
+    <Tile id="1" x="327.76051541718147" y="327.97312929062355" z="282.43350778036984">
+      <High file="draco_high_tile512/high_1596/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1596/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="360.85624406757677" y="721.7628385289773" z="293.4129693225714">
+      <High file="draco_high_tile512/high_1596/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1596/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="536.7554496984944" y="838.1965032341268" z="342.1683966573956">
+      <High file="draco_high_tile512/high_1596/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1596/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1597">
+    <Tile id="1" x="327.4801390795975" y="329.1945997001796" z="284.14456076897096">
+      <High file="draco_high_tile512/high_1597/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1597/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="359.7081881627387" y="720.9818262258277" z="296.48744442770084">
+      <High file="draco_high_tile512/high_1597/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1597/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="542.2597506466543" y="849.8043032872704" z="338.59271232755884">
+      <High file="draco_high_tile512/high_1597/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1597/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1598">
+    <Tile id="1" x="327.14564439964664" y="329.8387331875228" z="284.30715298445097">
+      <High file="draco_high_tile512/high_1598/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1598/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="357.7971168055663" y="718.6339764119172" z="298.8498011842316">
+      <High file="draco_high_tile512/high_1598/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1598/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="540.7884388062542" y="862.9999887669718" z="333.4536248342062">
+      <High file="draco_high_tile512/high_1598/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1598/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1599">
+    <Tile id="1" x="327.3572313177201" y="332.5917597798262" z="284.73658835921">
+      <High file="draco_high_tile512/high_1599/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1599/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="356.2944210235618" y="718.1219206591148" z="300.891105426573">
+      <High file="draco_high_tile512/high_1599/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1599/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="532.3181950378417" y="862.1943110656738" z="326.4468046431108">
+      <High file="draco_high_tile512/high_1599/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1599/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1600">
+    <Tile id="1" x="327.07767661960366" y="333.5516571338869" z="284.5405247441917">
+      <High file="draco_high_tile512/high_1600/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1600/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="354.8249915536252" y="716.0998862090727" z="302.1727819738963">
+      <High file="draco_high_tile512/high_1600/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1600/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.4325174304677" y="851.6534428246596" z="322.00978991655035">
+      <High file="draco_high_tile512/high_1600/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1600/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1601">
+    <Tile id="1" x="326.5689611532589" y="332.83640991196506" z="282.6964108998418">
+      <High file="draco_high_tile512/high_1601/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1601/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="354.04755393388507" y="716.150314123797" z="303.250508333887">
+      <High file="draco_high_tile512/high_1601/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1601/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.5372537038859" y="841.1331514710362" z="318.065251998531">
+      <High file="draco_high_tile512/high_1601/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1601/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1602">
+    <Tile id="1" x="326.95780510122563" y="336.0517472319305" z="283.83272502524335">
+      <High file="draco_high_tile512/high_1602/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1602/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="353.20002742837295" y="716.8174256386538" z="302.740467357411">
+      <High file="draco_high_tile512/high_1602/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1602/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.6313707482514" y="816.407959425062" z="311.5017847935646">
+      <High file="draco_high_tile512/high_1602/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1602/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1603">
+    <Tile id="1" x="327.91859032872156" y="338.4837795853687" z="284.4684158652581">
+      <High file="draco_high_tile512/high_1603/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1603/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="351.3643710934433" y="717.6602761562468" z="301.8611496949508">
+      <High file="draco_high_tile512/high_1603/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1603/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="520.8926617558237" y="788.9478449027243" z="283.0874696799901">
+      <High file="draco_high_tile512/high_1603/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1603/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1604">
+    <Tile id="1" x="328.1190786800304" y="340.6038173542247" z="284.2596569315295">
+      <High file="draco_high_tile512/high_1604/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1604/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="349.4575227776008" y="717.067644526184" z="301.9679983637818">
+      <High file="draco_high_tile512/high_1604/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1604/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.101812273746" y="787.7840256768108" z="245.7022020973329">
+      <High file="draco_high_tile512/high_1604/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1604/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1605">
+    <Tile id="1" x="327.4360937259308" y="339.7371942611368" z="281.94368179716963">
+      <High file="draco_high_tile512/high_1605/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1605/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="351.5466126640534" y="716.1168949512057" z="303.91084032602106">
+      <High file="draco_high_tile512/high_1605/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1605/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.6362040955344" y="787.2364023049018" z="241.25872968090252">
+      <High file="draco_high_tile512/high_1605/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1605/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1606">
+    <Tile id="1" x="323.0602707118979" y="332.522413915822" z="276.44678271695165">
+      <High file="draco_high_tile512/high_1606/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1606/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="351.9651978016876" y="712.3518711944675" z="306.45044560807406">
+      <High file="draco_high_tile512/high_1606/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1606/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="520.1982170899782" y="794.2487505579717" z="238.90685462338928">
+      <High file="draco_high_tile512/high_1606/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1606/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1607">
+    <Tile id="1" x="319.6163471904043" y="330.6960103466106" z="276.0624974808822">
+      <High file="draco_high_tile512/high_1607/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1607/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="351.8823669965288" y="711.9271177007837" z="306.0751652425551">
+      <High file="draco_high_tile512/high_1607/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1607/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.9657977960502" y="811.8654427760715" z="265.7143018682706">
+      <High file="draco_high_tile512/high_1607/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1607/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1608">
+    <Tile id="1" x="316.1068554385383" y="326.03718303045287" z="275.2501979370113">
+      <High file="draco_high_tile512/high_1608/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1608/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="352.4777099718371" y="710.1457575943787" z="306.9084645255024">
+      <High file="draco_high_tile512/high_1608/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1608/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.7952085673062" y="818.6607295212168" z="290.14496221688535">
+      <High file="draco_high_tile512/high_1608/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1608/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1609">
+    <Tile id="1" x="312.9421854183697" y="325.1197886931737" z="275.943589838298">
+      <High file="draco_high_tile512/high_1609/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1609/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="351.08664671505113" y="709.1315644480454" z="305.90676350329767">
+      <High file="draco_high_tile512/high_1609/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1609/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.6913511360524" y="832.9468513287253" z="289.371505044237">
+      <High file="draco_high_tile512/high_1609/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1609/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1610">
+    <Tile id="1" x="309.7995985164774" y="323.5401570842364" z="276.23678281167776">
+      <High file="draco_high_tile512/high_1610/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1610/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="348.60864124090847" y="705.6141765856856" z="305.69826380599704">
+      <High file="draco_high_tile512/high_1610/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1610/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="530.4204693208965" y="852.2824834538671" z="273.53093024206106">
+      <High file="draco_high_tile512/high_1610/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1610/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1611">
+    <Tile id="1" x="307.39536920327214" y="322.1905333647722" z="275.5884819851689">
+      <High file="draco_high_tile512/high_1611/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1611/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="347.9600103970473" y="704.9705407525865" z="305.1012569414906">
+      <High file="draco_high_tile512/high_1611/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1611/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="531.6818919172955" y="867.603848707432" z="266.75546429723374">
+      <High file="draco_high_tile512/high_1611/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1611/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1612">
+    <Tile id="1" x="305.07934346633476" y="319.40967533807066" z="275.08308756630595">
+      <High file="draco_high_tile512/high_1612/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1612/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="346.5783588755509" y="704.6135831381619" z="303.94291318202306">
+      <High file="draco_high_tile512/high_1612/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1612/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="529.3331892273193" y="832.8286141853406" z="274.47808615936384">
+      <High file="draco_high_tile512/high_1612/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1612/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1613">
+    <Tile id="1" x="302.8598793797789" y="317.15069615599117" z="274.90880047732264">
+      <High file="draco_high_tile512/high_1613/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1613/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="345.9198374068035" y="704.3222033850828" z="303.0349964317362">
+      <High file="draco_high_tile512/high_1613/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1613/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.1557754482383" y="797.1215306509563" z="287.69436538114576">
+      <High file="draco_high_tile512/high_1613/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1613/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1614">
+    <Tile id="1" x="299.89181213912013" y="315.4029409367582" z="275.37149092122604">
+      <High file="draco_high_tile512/high_1614/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1614/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="345.0051062522682" y="704.0463396349917" z="301.3758013944003">
+      <High file="draco_high_tile512/high_1614/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1614/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.0716405004524" y="770.8668580737955" z="288.1203697430446">
+      <High file="draco_high_tile512/high_1614/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1614/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1615">
+    <Tile id="1" x="297.3971382913932" y="316.60343325550565" z="276.3614654539932">
+      <High file="draco_high_tile512/high_1615/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1615/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="341.36733413238574" y="699.9513922541861" z="301.0712418239575">
+      <High file="draco_high_tile512/high_1615/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1615/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.1076688670149" y="750.0984495220762" z="281.57140870527786">
+      <High file="draco_high_tile512/high_1615/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1615/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1616">
+    <Tile id="1" x="297.83844988302" y="320.5170906915506" z="277.6286121835994">
+      <High file="draco_high_tile512/high_1616/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1616/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="341.10195755355363" y="702.3340828437142" z="297.2554104986579">
+      <High file="draco_high_tile512/high_1616/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1616/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.9519227317359" y="771.6216714767099" z="267.9587722566077">
+      <High file="draco_high_tile512/high_1616/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1616/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1617">
+    <Tile id="1" x="296.39583936598274" y="321.90864525895813" z="278.7213443834">
+      <High file="draco_high_tile512/high_1617/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1617/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="339.07142492997684" y="702.4664185627927" z="294.8477741694361">
+      <High file="draco_high_tile512/high_1617/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1617/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.7046691672181" y="783.0380732635331" z="259.4492387939527">
+      <High file="draco_high_tile512/high_1617/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1617/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1618">
+    <Tile id="1" x="294.4129739066432" y="321.8319811966986" z="278.6126329456171">
+      <High file="draco_high_tile512/high_1618/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1618/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="337.4830710649484" y="704.8380277943182" z="291.3011978347004">
+      <High file="draco_high_tile512/high_1618/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1618/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.0804727827426" y="807.2741909805833" z="249.73248557759263">
+      <High file="draco_high_tile512/high_1618/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1618/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1619">
+    <Tile id="1" x="293.65909510277027" y="322.72978165478014" z="278.8384450954723">
+      <High file="draco_high_tile512/high_1619/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1619/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.67672803473454" y="704.9871155831473" z="288.5646543297671">
+      <High file="draco_high_tile512/high_1619/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1619/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.6260293262478" y="822.0080396646421" z="236.70801039602597">
+      <High file="draco_high_tile512/high_1619/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1619/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1620">
+    <Tile id="1" x="291.8020700875417" y="323.2336039597556" z="278.9313053041086">
+      <High file="draco_high_tile512/high_1620/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1620/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.0810548790367" y="707.5544862661836" z="285.47099688412686">
+      <High file="draco_high_tile512/high_1620/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1620/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="520.6047454640552" y="775.4646529965376" z="228.75717760492452">
+      <High file="draco_high_tile512/high_1620/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1620/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1621">
+    <Tile id="1" x="289.3350682385658" y="323.78601867919434" z="279.0036250138634">
+      <High file="draco_high_tile512/high_1621/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1621/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.72029642780416" y="705.370497612637" z="283.32997469991574">
+      <High file="draco_high_tile512/high_1621/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1621/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.8825946669098" y="603.0710022349675" z="263.93370047774147">
+      <High file="draco_high_tile512/high_1621/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1621/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1622">
+    <Tile id="1" x="287.72204786283976" y="324.45831974738456" z="278.27063406625035">
+      <High file="draco_high_tile512/high_1622/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1622/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.69796165207674" y="704.0411216050886" z="282.18567329988224">
+      <High file="draco_high_tile512/high_1622/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1622/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.2238115788404" y="602.3338638276928" z="262.0394880291208">
+      <High file="draco_high_tile512/high_1622/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1622/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1623">
+    <Tile id="1" x="285.19261031112427" y="322.45309535729695" z="276.99565279646527">
+      <High file="draco_high_tile512/high_1623/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1623/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.067753535031" y="707.100458802024" z="280.4433469622401">
+      <High file="draco_high_tile512/high_1623/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1623/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.465431954951" y="601.2475388101141" z="264.6013282889">
+      <High file="draco_high_tile512/high_1623/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1623/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1624">
+    <Tile id="1" x="281.1038874680268" y="320.0223473035802" z="275.71104653453006">
+      <High file="draco_high_tile512/high_1624/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1624/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.4507437918993" y="704.2231465245284" z="278.36412136861134">
+      <High file="draco_high_tile512/high_1624/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1624/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.142506597427" y="607.5094414477078" z="262.53614767942287">
+      <High file="draco_high_tile512/high_1624/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1624/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1625">
+    <Tile id="1" x="277.6130773504503" y="317.7387172212848" z="275.1721858073587">
+      <High file="draco_high_tile512/high_1625/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1625/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="331.67171398184115" y="701.7135680844452" z="277.2762697413174">
+      <High file="draco_high_tile512/high_1625/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1625/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.3654526916756" y="610.2793337046995" z="265.21982485895376">
+      <High file="draco_high_tile512/high_1625/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1625/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1626">
+    <Tile id="1" x="276.66242154707817" y="319.7788153093308" z="274.12472150127354">
+      <High file="draco_high_tile512/high_1626/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1626/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="331.7459277827994" y="701.5644721956406" z="277.26939554826697">
+      <High file="draco_high_tile512/high_1626/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1626/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.7712184811044" y="610.5294609324601" z="269.8342509544757">
+      <High file="draco_high_tile512/high_1626/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1626/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1627">
+    <Tile id="1" x="276.4961440347391" y="319.8550521843956" z="273.9626936178893">
+      <High file="draco_high_tile512/high_1627/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1627/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="331.38501695273436" y="697.5256511474824" z="278.3299406947301">
+      <High file="draco_high_tile512/high_1627/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1627/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.1482200464709" y="608.7531002070986" z="274.4882769564925">
+      <High file="draco_high_tile512/high_1627/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1627/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1628">
+    <Tile id="1" x="277.89263706295486" y="322.4822081663594" z="274.2111482236894">
+      <High file="draco_high_tile512/high_1628/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1628/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="330.8689347763082" y="695.7093197143158" z="279.4285937918817">
+      <High file="draco_high_tile512/high_1628/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1628/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="513.6875984327496" y="605.2095605263206" z="278.8419396139061">
+      <High file="draco_high_tile512/high_1628/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1628/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1629">
+    <Tile id="1" x="279.8559788055969" y="324.98210518987634" z="274.2780177326373">
+      <High file="draco_high_tile512/high_1629/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1629/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="330.4326197654002" y="696.5654957922517" z="279.7164726351842">
+      <High file="draco_high_tile512/high_1629/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1629/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="513.1221895237319" y="599.7861798008688" z="284.749505751973">
+      <High file="draco_high_tile512/high_1629/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1629/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1630">
+    <Tile id="1" x="282.71818620976416" y="326.96047650900397" z="275.066430949495">
+      <High file="draco_high_tile512/high_1630/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1630/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="326.8100534563681" y="699.147973947726" z="280.7359648083305">
+      <High file="draco_high_tile512/high_1630/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1630/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1631">
+    <Tile id="1" x="287.6087743370558" y="330.3918362974602" z="276.4115378307326">
+      <High file="draco_high_tile512/high_1631/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1631/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="324.9317370143109" y="704.3814704571155" z="279.03741657497136">
+      <High file="draco_high_tile512/high_1631/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1631/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1632">
+    <Tile id="1" x="288.96930798788424" y="330.80542899105575" z="277.94422546292475">
+      <High file="draco_high_tile512/high_1632/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1632/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="324.0537351599465" y="705.7045998447177" z="279.08829957418436">
+      <High file="draco_high_tile512/high_1632/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1632/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1633">
+    <Tile id="1" x="287.7998274894044" y="329.35930572419863" z="277.7330735100934">
+      <High file="draco_high_tile512/high_1633/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1633/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="322.30438098711306" y="711.7236731641816" z="277.9985092515469">
+      <High file="draco_high_tile512/high_1633/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1633/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1634">
+    <Tile id="1" x="287.6532520494758" y="331.0963331586426" z="278.8930003087969">
+      <High file="draco_high_tile512/high_1634/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1634/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="319.77916136550004" y="709.3595662097133" z="278.4537296477987">
+      <High file="draco_high_tile512/high_1634/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1634/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1635">
+    <Tile id="1" x="288.32433857905346" y="333.0603690862929" z="279.3689281591482">
+      <High file="draco_high_tile512/high_1635/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1635/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="318.83919696109376" y="709.7815940078547" z="278.52788716795544">
+      <High file="draco_high_tile512/high_1635/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1635/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1636">
+    <Tile id="1" x="287.6774542416859" y="333.25612068539067" z="280.56843426461705">
+      <High file="draco_high_tile512/high_1636/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1636/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="317.95730211580315" y="709.0619342623961" z="278.51381695333964">
+      <High file="draco_high_tile512/high_1636/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1636/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.659643272444" y="576.6995292178468" z="291.21365444646403">
+      <High file="draco_high_tile512/high_1636/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1636/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1637">
+    <Tile id="1" x="285.8734249557068" y="333.9738192631104" z="282.1264233934278">
+      <High file="draco_high_tile512/high_1637/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1637/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="318.1431178231669" y="711.2801321639297" z="278.532873640325">
+      <High file="draco_high_tile512/high_1637/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1637/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.3398311400472" y="574.6821556930729" z="288.7689659659612">
+      <High file="draco_high_tile512/high_1637/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1637/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1638">
+    <Tile id="1" x="285.52988600050224" y="334.5465905430131" z="282.9770408825733">
+      <High file="draco_high_tile512/high_1638/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1638/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="317.8341856435276" y="711.6007007922575" z="280.74525180270194">
+      <High file="draco_high_tile512/high_1638/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1638/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.9266311095381" y="573.6869153596418" z="287.5066471763384">
+      <High file="draco_high_tile512/high_1638/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1638/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1639">
+    <Tile id="1" x="284.87943373104326" y="332.75872047948695" z="282.12350904594314">
+      <High file="draco_high_tile512/high_1639/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1639/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="318.1993765257165" y="715.1149637503704" z="282.92678399234325">
+      <High file="draco_high_tile512/high_1639/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1639/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.0595876406416" y="573.5467060434601" z="290.42423303067994">
+      <High file="draco_high_tile512/high_1639/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1639/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1640">
+    <Tile id="1" x="283.9945648973232" y="332.27304672182595" z="281.4437752712752">
+      <High file="draco_high_tile512/high_1640/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1640/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="318.94817521704584" y="716.3015227892307" z="284.1262028255747">
+      <High file="draco_high_tile512/high_1640/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1640/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.5578687042886" y="571.5565912774268" z="295.33701192652927">
+      <High file="draco_high_tile512/high_1640/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1640/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1641">
+    <Tile id="1" x="283.395464751054" y="331.881323506685" z="280.6452083859209">
+      <High file="draco_high_tile512/high_1641/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1641/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="319.5307924483853" y="718.5082335351228" z="285.36672880201">
+      <High file="draco_high_tile512/high_1641/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1641/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.2345930868121" y="569.3910703614322" z="298.7577945928838">
+      <High file="draco_high_tile512/high_1641/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1641/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1642">
+    <Tile id="1" x="283.44458959408405" y="330.5052834185017" z="278.6576881860028">
+      <High file="draco_high_tile512/high_1642/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1642/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="320.4797725731273" y="720.4178746601148" z="286.57991811084554">
+      <High file="draco_high_tile512/high_1642/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1642/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.7324589521683" y="566.7873568658019" z="301.7121781352701">
+      <High file="draco_high_tile512/high_1642/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1642/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1643">
+    <Tile id="1" x="282.26241714727894" y="326.39768854999033" z="275.30456650286976">
+      <High file="draco_high_tile512/high_1643/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1643/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="320.5130451520478" y="722.3998978831859" z="287.2351511987315">
+      <High file="draco_high_tile512/high_1643/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1643/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.0574297551566" y="562.235751011702" z="305.6949572865356">
+      <High file="draco_high_tile512/high_1643/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1643/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1644">
+    <Tile id="1" x="281.6831506423914" y="326.18711916626" z="272.9547181191646">
+      <High file="draco_high_tile512/high_1644/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1644/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="320.19697472335434" y="722.8119177330511" z="287.094254993911">
+      <High file="draco_high_tile512/high_1644/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1644/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.7371761624587" y="556.5023319606277" z="308.43623171698067">
+      <High file="draco_high_tile512/high_1644/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1644/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1645">
+    <Tile id="1" x="282.7957535621581" y="325.8324478032516" z="270.74346354367725">
+      <High file="draco_high_tile512/high_1645/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1645/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="320.2570829448096" y="724.4698579600454" z="286.7711915450213">
+      <High file="draco_high_tile512/high_1645/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1645/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.9008040184048" y="565.1775652263758" z="312.4537053547622">
+      <High file="draco_high_tile512/high_1645/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1645/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1646">
+    <Tile id="1" x="284.7609878294105" y="326.1996972458426" z="268.6018145300655">
+      <High file="draco_high_tile512/high_1646/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1646/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="319.11469889897205" y="723.5135443572502" z="286.26055286718787">
+      <High file="draco_high_tile512/high_1646/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1646/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.4185791015625" y="825.6046383879906" z="320.0232863315316">
+      <High file="draco_high_tile512/high_1646/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1646/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1647">
+    <Tile id="1" x="286.7598355765769" y="327.17670009456964" z="266.95705254175454">
+      <High file="draco_high_tile512/high_1647/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1647/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="315.85805816892133" y="721.2335040330184" z="285.4981377291917">
+      <High file="draco_high_tile512/high_1647/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1647/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.4377986106552" y="849.9117527040113" z="314.0949211056493">
+      <High file="draco_high_tile512/high_1647/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1647/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1648">
+    <Tile id="1" x="289.8948698013326" y="332.3496511494775" z="265.9485613838162">
+      <High file="draco_high_tile512/high_1648/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1648/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="313.68232579657996" y="719.2421735999394" z="284.8427668692653">
+      <High file="draco_high_tile512/high_1648/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1648/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.2361083407892" y="868.9009552902708" z="316.01536214168686">
+      <High file="draco_high_tile512/high_1648/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1648/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1649">
+    <Tile id="1" x="295.44971948568985" y="335.1125198050778" z="264.9528982168602">
+      <High file="draco_high_tile512/high_1649/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1649/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="309.87572464407936" y="718.3077649582129" z="283.76529253266654">
+      <High file="draco_high_tile512/high_1649/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1649/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.4742514618935" y="883.4471095335807" z="302.3821337604811">
+      <High file="draco_high_tile512/high_1649/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1649/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1650">
+    <Tile id="1" x="297.1697565546547" y="335.59844425109674" z="263.99352026996564">
+      <High file="draco_high_tile512/high_1650/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1650/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="307.12434097874427" y="719.609138756719" z="283.9419288539161">
+      <High file="draco_high_tile512/high_1650/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1650/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1651">
+    <Tile id="1" x="298.23301904770517" y="336.6979093333644" z="263.2742110277427">
+      <High file="draco_high_tile512/high_1651/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1651/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="307.1966724794295" y="724.4273574177911" z="284.59634117778904">
+      <High file="draco_high_tile512/high_1651/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1651/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1652">
+    <Tile id="1" x="298.17945023575714" y="336.9016727972342" z="262.45741047872247">
+      <High file="draco_high_tile512/high_1652/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1652/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="305.1954627441126" y="724.739652867109" z="285.41688748658555">
+      <High file="draco_high_tile512/high_1652/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1652/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1653">
+    <Tile id="1" x="295.69759570474235" y="331.7225514823294" z="261.2646686205406">
+      <High file="draco_high_tile512/high_1653/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1653/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="305.3462016432298" y="727.8316194811722" z="286.51294419271363">
+      <High file="draco_high_tile512/high_1653/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1653/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1654">
+    <Tile id="1" x="292.8798689954647" y="326.3637943504869" z="260.2409758769508">
+      <High file="draco_high_tile512/high_1654/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1654/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="305.647947297154" y="730.7953202878083" z="288.2215150649219">
+      <High file="draco_high_tile512/high_1654/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1654/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1655">
+    <Tile id="1" x="291.82574513186864" y="323.77546199726805" z="258.4470277802829">
+      <High file="draco_high_tile512/high_1655/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1655/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="305.38466464957173" y="731.1849158306861" z="290.21563771806626">
+      <High file="draco_high_tile512/high_1655/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1655/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1656">
+    <Tile id="1" x="291.03380035329565" y="325.54206971723744" z="257.5643368187916">
+      <High file="draco_high_tile512/high_1656/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1656/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="306.0854125852702" y="733.6081925186902" z="291.96870158108874">
+      <High file="draco_high_tile512/high_1656/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1656/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1657">
+    <Tile id="1" x="292.20119471617124" y="325.8256055873578" z="257.013698141913">
+      <High file="draco_high_tile512/high_1657/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1657/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="307.74928155801496" y="737.3218101162632" z="294.70614595418186">
+      <High file="draco_high_tile512/high_1657/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1657/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1658">
+    <Tile id="1" x="294.47640108804677" y="327.0851172782212" z="257.5197604161203">
+      <High file="draco_high_tile512/high_1658/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1658/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="308.30496371831157" y="737.4750547527896" z="294.46046636072685">
+      <High file="draco_high_tile512/high_1658/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1658/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="308.24998664855957" y="826.8749923706055" z="512.7499961853027">
+      <High file="draco_high_tile512/high_1658/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1658/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1659">
+    <Tile id="1" x="297.01098673848963" y="330.4362837397743" z="258.2566007343646">
+      <High file="draco_high_tile512/high_1659/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1659/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="307.68709666638614" y="737.7977612916766" z="293.33224258987104">
+      <High file="draco_high_tile512/high_1659/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1659/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="299.0" y="838.0" z="512.0">
+      <High file="draco_high_tile512/high_1659/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1659/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="524.3283998635704" y="834.2328434529568" z="313.1184470175413">
+      <High file="draco_high_tile512/high_1659/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1659/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1660">
+    <Tile id="1" x="300.3766762040508" y="332.6747156139931" z="258.92372525037416">
+      <High file="draco_high_tile512/high_1660/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1660/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="307.8229787319109" y="738.5397799279846" z="291.3721883630294">
+      <High file="draco_high_tile512/high_1660/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1660/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.9325545027449" y="847.0811954532658" z="317.4776028469876">
+      <High file="draco_high_tile512/high_1660/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1660/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1661">
+    <Tile id="1" x="302.27165753070693" y="334.35843150300855" z="258.94875512460396">
+      <High file="draco_high_tile512/high_1661/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1661/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="308.67234944753227" y="738.8987149465456" z="288.5302566896595">
+      <High file="draco_high_tile512/high_1661/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1661/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.0511940783404" y="840.2126116414709" z="312.40160928560994">
+      <High file="draco_high_tile512/high_1661/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1661/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1662">
+    <Tile id="1" x="304.2067334381131" y="334.1965334892073" z="257.80518419863967">
+      <High file="draco_high_tile512/high_1662/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1662/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="309.5841802607935" y="738.3075309675114" z="285.76545563295645">
+      <High file="draco_high_tile512/high_1662/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1662/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.647076775046" y="827.1764993106617" z="295.23532643037686">
+      <High file="draco_high_tile512/high_1662/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1662/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1663">
+    <Tile id="1" x="305.23885539430654" y="332.8141571016887" z="257.46730956192096">
+      <High file="draco_high_tile512/high_1663/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1663/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="309.5990766879122" y="737.59665980167" z="285.072723562227">
+      <High file="draco_high_tile512/high_1663/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1663/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.8955355060634" y="484.06865771848766" z="304.00894984914294">
+      <High file="draco_high_tile512/high_1663/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1663/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="516.5070499903719" y="873.1337624133473" z="326.59860293965943">
+      <High file="draco_high_tile512/high_1663/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1663/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1664">
+    <Tile id="1" x="304.13520844289667" y="327.4553247028087" z="256.0609463618033">
+      <High file="draco_high_tile512/high_1664/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1664/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="312.85949246525297" y="737.5879214348031" z="284.6348580887825">
+      <High file="draco_high_tile512/high_1664/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1664/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.1715480942074" y="500.652833256939" z="330.63104306215166">
+      <High file="draco_high_tile512/high_1664/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1664/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="516.4666124280992" y="680.014293226305" z="332.11876720386545">
+      <High file="draco_high_tile512/high_1664/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1664/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1665">
+    <Tile id="1" x="304.0457883006632" y="323.48308161311246" z="254.82773053547587">
+      <High file="draco_high_tile512/high_1665/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1665/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="312.3727215117545" y="737.3731421638671" z="282.3039480199835">
+      <High file="draco_high_tile512/high_1665/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1665/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.6117970186122" y="510.7176470588235" z="369.48237232881434">
+      <High file="draco_high_tile512/high_1665/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1665/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1666">
+    <Tile id="1" x="305.18380289842844" y="322.166091676807" z="254.6261657462315">
+      <High file="draco_high_tile512/high_1666/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1666/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="313.4474221176599" y="738.6428565268968" z="281.16450435577076">
+      <High file="draco_high_tile512/high_1666/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1666/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.2555546303639" y="633.2504745595871" z="375.7027568864002">
+      <High file="draco_high_tile512/high_1666/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1666/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1667">
+    <Tile id="1" x="307.24988327962336" y="321.58776619571285" z="255.05616052478678">
+      <High file="draco_high_tile512/high_1667/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1667/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="316.32393280525633" y="741.0279329240615" z="281.399519621649">
+      <High file="draco_high_tile512/high_1667/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1667/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="520.0542867739741" y="869.3077471228327" z="312.42694069046814">
+      <High file="draco_high_tile512/high_1667/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1667/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1668">
+    <Tile id="1" x="310.40621949414793" y="318.0357486685516" z="255.29565465494153">
+      <High file="draco_high_tile512/high_1668/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1668/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="315.4308201298159" y="740.7951144909579" z="279.4493690275693">
+      <High file="draco_high_tile512/high_1668/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1668/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.8240882421525" y="958.3231662496844" z="276.97308097579105">
+      <High file="draco_high_tile512/high_1668/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1668/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1669">
+    <Tile id="1" x="312.7483979696533" y="315.93612385244603" z="255.00768664821408">
+      <High file="draco_high_tile512/high_1669/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1669/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="316.28597838353375" y="743.827171376797" z="278.4066605890357">
+      <High file="draco_high_tile512/high_1669/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1669/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.7728109888612" y="970.6314837024122" z="255.83184017392944">
+      <High file="draco_high_tile512/high_1669/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1669/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1670">
+    <Tile id="1" x="315.1056829255704" y="317.3522331612917" z="255.40807424613774">
+      <High file="draco_high_tile512/high_1670/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1670/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="315.9817449087488" y="745.3774447799742" z="277.3432613863621">
+      <High file="draco_high_tile512/high_1670/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1670/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="523.2400006891304" y="903.9384606594919" z="288.65921326972034">
+      <High file="draco_high_tile512/high_1670/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1670/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1671">
+    <Tile id="1" x="317.01500491354483" y="316.7560930868914" z="256.07150074263495">
+      <High file="draco_high_tile512/high_1671/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1671/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="315.7199911947759" y="746.5879449892435" z="276.0572399701341">
+      <High file="draco_high_tile512/high_1671/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1671/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.8952473918866" y="932.3812698083058" z="260.99126735505956">
+      <High file="draco_high_tile512/high_1671/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1671/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1672">
+    <Tile id="1" x="318.80061919453084" y="317.5892218119895" z="257.13628150434846">
+      <High file="draco_high_tile512/high_1672/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1672/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="316.12091892504105" y="749.0688930399253" z="273.65901417007854">
+      <High file="draco_high_tile512/high_1672/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1672/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="520.2170477303531" y="940.215521248843" z="216.21999299946557">
+      <High file="draco_high_tile512/high_1672/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1672/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1673">
+    <Tile id="1" x="320.7847047993266" y="318.8673313082153" z="258.35280430487256">
+      <High file="draco_high_tile512/high_1673/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1673/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="315.761932464712" y="747.8654634804134" z="273.32848928203555">
+      <High file="draco_high_tile512/high_1673/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1673/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.5376000727122" y="931.0536668175786" z="271.012721425881">
+      <High file="draco_high_tile512/high_1673/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1673/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1674">
+    <Tile id="1" x="323.02438307059555" y="319.78223183217466" z="260.01392512699596">
+      <High file="draco_high_tile512/high_1674/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1674/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="315.749045810325" y="749.5689902406149" z="270.64818530232634">
+      <High file="draco_high_tile512/high_1674/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1674/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.4546420345902" y="895.1351729948217" z="282.3517651457818">
+      <High file="draco_high_tile512/high_1674/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1674/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1675">
+    <Tile id="1" x="325.31961698758556" y="321.7146762695945" z="260.69929026585874">
+      <High file="draco_high_tile512/high_1675/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1675/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="316.48924824770046" y="753.2653716710338" z="268.7020015364131">
+      <High file="draco_high_tile512/high_1675/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1675/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="524.2571082481971" y="889.5911796283474" z="281.76549740114075">
+      <High file="draco_high_tile512/high_1675/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1675/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1676">
+    <Tile id="1" x="327.4678797819068" y="321.31317339805497" z="260.4627665178823">
+      <High file="draco_high_tile512/high_1676/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1676/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="314.17051483710287" y="752.3213066123745" z="267.2086866789565">
+      <High file="draco_high_tile512/high_1676/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1676/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.4227926851523" y="860.5851281456445" z="281.96825064346734">
+      <High file="draco_high_tile512/high_1676/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1676/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1677">
+    <Tile id="1" x="329.7436137557939" y="321.82613926116375" z="260.3137419077521">
+      <High file="draco_high_tile512/high_1677/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1677/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="314.67616101866247" y="753.9183876035619" z="265.7485068967207">
+      <High file="draco_high_tile512/high_1677/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1677/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.9540436246502" y="872.9970475017491" z="273.17137046700094">
+      <High file="draco_high_tile512/high_1677/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1677/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1678">
+    <Tile id="1" x="330.8544956368425" y="321.29543264843403" z="259.5907966995192">
+      <High file="draco_high_tile512/high_1678/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1678/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="313.82044757621856" y="753.9340680340126" z="264.7575558381829">
+      <High file="draco_high_tile512/high_1678/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1678/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="526.0941981542547" y="882.1146964450949" z="262.13625737182707">
+      <High file="draco_high_tile512/high_1678/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1678/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1679">
+    <Tile id="1" x="333.51121222548716" y="321.8828058558932" z="259.64425886935">
+      <High file="draco_high_tile512/high_1679/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1679/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="314.07779838914865" y="753.2696489534422" z="263.58747930929815">
+      <High file="draco_high_tile512/high_1679/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1679/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="525.4784626788404" y="891.8791290913515" z="246.8330349552857">
+      <High file="draco_high_tile512/high_1679/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1679/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1680">
+    <Tile id="1" x="335.40613251836425" y="322.05421886395897" z="258.98711406959814">
+      <High file="draco_high_tile512/high_1680/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1680/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="314.3984866088172" y="752.3955677946374" z="261.9183961482318">
+      <High file="draco_high_tile512/high_1680/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1680/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="522.9967341723743" y="892.365501266342" z="235.22695202011246">
+      <High file="draco_high_tile512/high_1680/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1680/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1681">
+    <Tile id="1" x="335.9306077315024" y="321.9734369528181" z="257.88544112685645">
+      <High file="draco_high_tile512/high_1681/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1681/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="315.4160777579038" y="752.662843161863" z="261.1846538432303">
+      <High file="draco_high_tile512/high_1681/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1681/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="521.2982708474864" y="898.657734367418" z="226.3828850147887">
+      <High file="draco_high_tile512/high_1681/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1681/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1682">
+    <Tile id="1" x="336.22520715886384" y="321.6739904004361" z="257.1957018190697">
+      <High file="draco_high_tile512/high_1682/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1682/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="315.62183714246396" y="753.0360879941932" z="261.3294603398372">
+      <High file="draco_high_tile512/high_1682/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1682/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="519.081104835304" y="921.6378477354308" z="199.78917962151604">
+      <High file="draco_high_tile512/high_1682/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1682/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1683">
+    <Tile id="1" x="336.73556777391246" y="322.35217423193933" z="256.00342116357774">
+      <High file="draco_high_tile512/high_1683/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1683/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="317.1741412966544" y="754.3810118380391" z="261.037240570592">
+      <High file="draco_high_tile512/high_1683/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1683/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.8743126040599" y="906.1639571059598" z="213.81969689541177">
+      <High file="draco_high_tile512/high_1683/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1683/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1684">
+    <Tile id="1" x="336.62022420803055" y="322.26960778604985" z="254.60471697384418">
+      <High file="draco_high_tile512/high_1684/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1684/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="319.6913860015591" y="755.7190179220504" z="260.133114450183">
+      <High file="draco_high_tile512/high_1684/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1684/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1685">
+    <Tile id="1" x="337.746706976026" y="323.42207054204073" z="253.34808761093012">
+      <High file="draco_high_tile512/high_1685/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1685/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="321.7403362179188" y="756.2364917560911" z="259.855277789866">
+      <High file="draco_high_tile512/high_1685/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1685/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1686">
+    <Tile id="1" x="338.6771757222817" y="323.5325995163714" z="252.4510573072293">
+      <High file="draco_high_tile512/high_1686/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1686/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="323.4067746518724" y="757.0861820464279" z="258.8521614422883">
+      <High file="draco_high_tile512/high_1686/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1686/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1687">
+    <Tile id="1" x="339.58439631859784" y="323.65205933627954" z="251.97820890381578">
+      <High file="draco_high_tile512/high_1687/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1687/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="323.93387430317557" y="757.3259060131164" z="259.19699937436695">
+      <High file="draco_high_tile512/high_1687/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1687/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1688">
+    <Tile id="1" x="340.6309857993206" y="324.10987724976485" z="251.98612887171694">
+      <High file="draco_high_tile512/high_1688/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1688/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="325.3762723613489" y="759.1500111051088" z="258.07732624486215">
+      <High file="draco_high_tile512/high_1688/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1688/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.896069874483" y="470.8946021884095" z="314.80785803701366">
+      <High file="draco_high_tile512/high_1688/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1688/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1689">
+    <Tile id="1" x="340.889377590423" y="324.803754863187" z="251.88659080220907">
+      <High file="draco_high_tile512/high_1689/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1689/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="326.6210276458602" y="760.5035122371482" z="257.66883345661705">
+      <High file="draco_high_tile512/high_1689/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1689/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.9310344837739" y="474.50122139503344" z="312.2426460291876">
+      <High file="draco_high_tile512/high_1689/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1689/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1690">
+    <Tile id="1" x="341.50725400550255" y="325.3866804256272" z="251.6887167732737">
+      <High file="draco_high_tile512/high_1690/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1690/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="325.5015762596182" y="759.012919188581" z="257.7001970387683">
+      <High file="draco_high_tile512/high_1690/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1690/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.1471394494275" y="472.66658057401867" z="307.97998046875">
+      <High file="draco_high_tile512/high_1690/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1690/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="515.6777637666869" y="884.2137287621359" z="316.10107066330403">
+      <High file="draco_high_tile512/high_1690/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1690/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1691">
+    <Tile id="1" x="342.1691389845953" y="326.6315035942153" z="251.94826627976522">
+      <High file="draco_high_tile512/high_1691/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1691/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="325.6969955619331" y="758.7785261624211" z="257.5665576566757">
+      <High file="draco_high_tile512/high_1691/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1691/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.7643103529891" y="467.1905876656136" z="300.45420977223915">
+      <High file="draco_high_tile512/high_1691/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1691/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="523.9183417896234" y="908.9099443190169" z="284.5668607126368">
+      <High file="draco_high_tile512/high_1691/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1691/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1692">
+    <Tile id="1" x="341.36298166244796" y="326.5590635857187" z="252.59940963293278">
+      <High file="draco_high_tile512/high_1692/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1692/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="327.22893994209375" y="759.1243673173714" z="257.66519974510226">
+      <High file="draco_high_tile512/high_1692/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1692/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.7346201472018" y="461.57570587569984" z="295.04497526932334">
+      <High file="draco_high_tile512/high_1692/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1692/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="523.9156157917781" y="922.1210727872157" z="257.25789878195394">
+      <High file="draco_high_tile512/high_1692/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1692/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1693">
+    <Tile id="1" x="341.1292530592278" y="327.6359384078513" z="252.89060571923787">
+      <High file="draco_high_tile512/high_1693/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1693/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="328.58101761402725" y="758.4165316307973" z="257.28307241829384">
+      <High file="draco_high_tile512/high_1693/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1693/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="520.1203373169708" y="920.2933751973161" z="243.8778218414824">
+      <High file="draco_high_tile512/high_1693/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1693/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1694">
+    <Tile id="1" x="338.9468067455745" y="326.3850194361273" z="252.6815657049919">
+      <High file="draco_high_tile512/high_1694/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1694/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="329.0102452700456" y="755.017397814151" z="257.29750316428874">
+      <High file="draco_high_tile512/high_1694/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1694/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.3086908295398" y="911.6582899198758" z="234.8188905490665">
+      <High file="draco_high_tile512/high_1694/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1694/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1695">
+    <Tile id="1" x="336.8345533788999" y="326.6901554079904" z="252.6586916122294">
+      <High file="draco_high_tile512/high_1695/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1695/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="330.28751794927405" y="751.9107789170031" z="257.46290976858">
+      <High file="draco_high_tile512/high_1695/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1695/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.392612761515" y="910.2822044700201" z="246.85276139148175">
+      <High file="draco_high_tile512/high_1695/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1695/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1696">
+    <Tile id="1" x="333.90127897218605" y="325.59395713185404" z="252.74404837344198">
+      <High file="draco_high_tile512/high_1696/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1696/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="332.70543873180117" y="750.8154522971015" z="258.01336570833814">
+      <High file="draco_high_tile512/high_1696/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1696/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="513.266053544714" y="901.3299404712434" z="250.1171511386303">
+      <High file="draco_high_tile512/high_1696/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1696/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1697">
+    <Tile id="1" x="331.62383958257465" y="325.0395555570704" z="252.32926367197578">
+      <High file="draco_high_tile512/high_1697/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1697/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="332.53789717818404" y="747.754332382241" z="257.4493726119073">
+      <High file="draco_high_tile512/high_1697/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1697/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="512.623416256595" y="869.7274122362013" z="283.92211022315087">
+      <High file="draco_high_tile512/high_1697/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1697/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1698">
+    <Tile id="1" x="329.30575473084434" y="323.9343104917985" z="252.0286998348362">
+      <High file="draco_high_tile512/high_1698/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1698/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="332.23056931894337" y="743.5666604280691" z="257.5184896231302">
+      <High file="draco_high_tile512/high_1698/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1698/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.7968436054799" y="886.3601168928475" z="247.81037186662812">
+      <High file="draco_high_tile512/high_1698/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1698/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1699">
+    <Tile id="1" x="327.3649502581138" y="322.2137303936174" z="251.90893994571692">
+      <High file="draco_high_tile512/high_1699/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1699/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.49996344024254" y="741.7044505557739" z="257.0641077663093">
+      <High file="draco_high_tile512/high_1699/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1699/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.1573963249804" y="880.5052776477538" z="238.1159377781292">
+      <High file="draco_high_tile512/high_1699/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1699/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1700">
+    <Tile id="1" x="326.2992496356581" y="322.64729215807023" z="252.16060457440688">
+      <High file="draco_high_tile512/high_1700/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1700/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.75820033535695" y="739.7096748469198" z="257.52645873081644">
+      <High file="draco_high_tile512/high_1700/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1700/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.8758943723013" y="864.7951189170676" z="246.81969585910056">
+      <High file="draco_high_tile512/high_1700/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1700/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1701">
+    <Tile id="1" x="324.4806620042056" y="320.5415888561004" z="251.36613990934592">
+      <High file="draco_high_tile512/high_1701/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1701/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.78090374022975" y="738.0026055792283" z="257.6769951463288">
+      <High file="draco_high_tile512/high_1701/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1701/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.6805529950019" y="857.9248355097163" z="259.62889841900665">
+      <High file="draco_high_tile512/high_1701/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1701/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1702">
+    <Tile id="1" x="323.9283761770306" y="320.36585662110144" z="250.88119025058654">
+      <High file="draco_high_tile512/high_1702/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1702/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.49022271941743" y="736.0026234641898" z="257.26382640678264">
+      <High file="draco_high_tile512/high_1702/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1702/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="517.011671796837" y="854.942337797589" z="258.12510007708704">
+      <High file="draco_high_tile512/high_1702/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1702/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1703">
+    <Tile id="1" x="323.11506728749055" y="318.69965136341483" z="248.38263205251522">
+      <High file="draco_high_tile512/high_1703/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1703/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.05139582879156" y="735.2301980968994" z="256.20753121288516">
+      <High file="draco_high_tile512/high_1703/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1703/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.6037070001462" y="856.0727914283683" z="259.8078650309656">
+      <High file="draco_high_tile512/high_1703/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1703/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1704">
+    <Tile id="1" x="323.64051887222433" y="320.87293174196174" z="247.77562775374975">
+      <High file="draco_high_tile512/high_1704/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1704/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.65347968421895" y="736.5282201683402" z="255.79263076707906">
+      <High file="draco_high_tile512/high_1704/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1704/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.3883241455633" y="856.0431434925897" z="264.37168574712206">
+      <High file="draco_high_tile512/high_1704/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1704/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1705">
+    <Tile id="1" x="324.8147080012533" y="324.91638436291726" z="247.50864269362552">
+      <High file="draco_high_tile512/high_1705/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1705/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="334.0481913270335" y="739.093210302395" z="254.90832256718517">
+      <High file="draco_high_tile512/high_1705/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1705/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="520.9139489210878" y="849.7335844248986" z="254.62482833219016">
+      <High file="draco_high_tile512/high_1705/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1705/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1706">
+    <Tile id="1" x="326.78289182097177" y="325.10982701788964" z="246.35546992534614">
+      <High file="draco_high_tile512/high_1706/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1706/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="332.6626296134774" y="737.0205047364044" z="255.27677494738344">
+      <High file="draco_high_tile512/high_1706/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1706/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="518.8096394089033" y="858.8456376927999" z="268.92455562637355">
+      <High file="draco_high_tile512/high_1706/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1706/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1707">
+    <Tile id="1" x="329.1241952117163" y="325.25005166078563" z="244.9182663854537">
+      <High file="draco_high_tile512/high_1707/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1707/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="332.12449001690254" y="735.6743050817689" z="256.5678401058401">
+      <High file="draco_high_tile512/high_1707/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1707/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.4206673758371" y="854.7301776219928" z="276.4999719044519">
+      <High file="draco_high_tile512/high_1707/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1707/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1708">
+    <Tile id="1" x="330.2686530696119" y="325.2910439533453" z="242.93282667671303">
+      <High file="draco_high_tile512/high_1708/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1708/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="330.59286228203285" y="735.454364186938" z="256.77676043845213">
+      <High file="draco_high_tile512/high_1708/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1708/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1709">
+    <Tile id="1" x="332.6228560286383" y="326.1318847930739" z="241.2236412038809">
+      <High file="draco_high_tile512/high_1709/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1709/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="330.3413533123474" y="736.2340937579781" z="257.06250981739896">
+      <High file="draco_high_tile512/high_1709/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1709/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1710">
+    <Tile id="1" x="333.6523083766876" y="325.54395178479433" z="239.4420788855394">
+      <High file="draco_high_tile512/high_1710/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1710/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="331.31953311379027" y="737.9823784195353" z="257.3480460707625">
+      <High file="draco_high_tile512/high_1710/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1710/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1711">
+    <Tile id="1" x="332.9461207177694" y="325.5097007781912" z="237.42303520204428">
+      <High file="draco_high_tile512/high_1711/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1711/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.65276821313154" y="741.8014461919071" z="257.4480603082568">
+      <High file="draco_high_tile512/high_1711/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1711/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1712">
+    <Tile id="1" x="329.1501792849494" y="319.6163026354066" z="234.78641084464456">
+      <High file="draco_high_tile512/high_1712/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1712/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="336.683367738283" y="744.8652351278931" z="256.92984736008435">
+      <High file="draco_high_tile512/high_1712/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1712/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.3494094059854" y="455.5080502215979" z="294.52764702183254">
+      <High file="draco_high_tile512/high_1712/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1712/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1713">
+    <Tile id="1" x="327.74780407697136" y="318.66440594205983" z="233.85535584583252">
+      <High file="draco_high_tile512/high_1713/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1713/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="338.35677936449906" y="747.6622031967034" z="255.04229756702543">
+      <High file="draco_high_tile512/high_1713/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1713/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.4070695314371" y="454.6532481986444" z="268.48851241188487">
+      <High file="draco_high_tile512/high_1713/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1713/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1714">
+    <Tile id="1" x="326.3198943415268" y="318.6268762607469" z="232.73101920670567">
+      <High file="draco_high_tile512/high_1714/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1714/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="338.6401804383458" y="749.7741190355399" z="252.02381013164384">
+      <High file="draco_high_tile512/high_1714/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1714/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="516.6500729682142" y="453.42977593248327" z="244.11138757466279">
+      <High file="draco_high_tile512/high_1714/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1714/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="519.2678464253744" y="885.9047588166736" z="258.4732139224098">
+      <High file="draco_high_tile512/high_1714/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1714/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1715">
+    <Tile id="1" x="326.0765266891112" y="317.99526182857375" z="233.02443078211152">
+      <High file="draco_high_tile512/high_1715/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1715/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="339.1520049825212" y="750.8539873793334" z="250.6918853101751">
+      <High file="draco_high_tile512/high_1715/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1715/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="515.784050138321" y="452.302201505762" z="221.29907261421624">
+      <High file="draco_high_tile512/high_1715/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1715/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="518.1337047376131" y="919.065823337488" z="238.37940938849198">
+      <High file="draco_high_tile512/high_1715/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1715/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1716">
+    <Tile id="1" x="325.8593682616971" y="317.1469887390231" z="233.86997279801042">
+      <High file="draco_high_tile512/high_1716/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1716/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="339.3404607029015" y="751.2555055404533" z="248.25005423843464">
+      <High file="draco_high_tile512/high_1716/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1716/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.351435414561" y="453.11540830385434" z="198.88638772497643">
+      <High file="draco_high_tile512/high_1716/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1716/tile_3.drc" />
+    </Tile>
+    <Tile id="4" x="513.9791874326509" y="947.7724108465786" z="219.00683530610183">
+      <High file="draco_high_tile512/high_1716/tile_4.drc" />
+      <Low file="draco_low_tile512/low_1716/tile_4.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1717">
+    <Tile id="1" x="326.35458897590576" y="318.5468002852692" z="234.58060998888246">
+      <High file="draco_high_tile512/high_1717/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1717/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="338.17887861029243" y="749.1994233347824" z="246.67147120924645">
+      <High file="draco_high_tile512/high_1717/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1717/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1718">
+    <Tile id="1" x="326.6101422377756" y="318.17270861290865" z="234.84527902384872">
+      <High file="draco_high_tile512/high_1718/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1718/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="336.4668950847053" y="747.2065122135489" z="245.59282376649116">
+      <High file="draco_high_tile512/high_1718/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1718/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1719">
+    <Tile id="1" x="327.0649010714111" y="319.7922305333628" z="235.1763805507333">
+      <High file="draco_high_tile512/high_1719/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1719/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="335.2122675484224" y="744.7900841347647" z="244.32039238325618">
+      <High file="draco_high_tile512/high_1719/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1719/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1720">
+    <Tile id="1" x="327.1754008083885" y="320.24636110514393" z="234.8016219790952">
+      <High file="draco_high_tile512/high_1720/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1720/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="333.5596337919747" y="741.6088667116511" z="242.87247152570566">
+      <High file="draco_high_tile512/high_1720/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1720/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1721">
+    <Tile id="1" x="327.17135412569354" y="319.30382462581224" z="235.62625533758484">
+      <High file="draco_high_tile512/high_1721/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1721/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="332.4079778529666" y="739.9449330866435" z="241.52172397074415">
+      <High file="draco_high_tile512/high_1721/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1721/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1722">
+    <Tile id="1" x="326.70976337132043" y="321.76198495472386" z="236.769695964667">
+      <High file="draco_high_tile512/high_1722/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1722/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="330.8600901093797" y="738.1301363529625" z="241.41893107587504">
+      <High file="draco_high_tile512/high_1722/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1722/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1723">
+    <Tile id="1" x="325.7708446289305" y="321.96461732095787" z="238.5309596631925">
+      <High file="draco_high_tile512/high_1723/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1723/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="330.04974227643044" y="737.6536668035343" z="239.9966403603758">
+      <High file="draco_high_tile512/high_1723/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1723/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1724">
+    <Tile id="1" x="324.57689013060275" y="321.80941576444496" z="240.44856134868044">
+      <High file="draco_high_tile512/high_1724/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1724/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="329.3117010615457" y="737.688439561552" z="239.64677942863517">
+      <High file="draco_high_tile512/high_1724/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1724/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1725">
+    <Tile id="1" x="323.5772839921579" y="320.9942618313691" z="242.01002828797033">
+      <High file="draco_high_tile512/high_1725/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1725/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="328.67725534421794" y="739.6777390853674" z="238.5587780606453">
+      <High file="draco_high_tile512/high_1725/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1725/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1726">
+    <Tile id="1" x="322.28530594066046" y="320.7688389138904" z="242.8222029037717">
+      <High file="draco_high_tile512/high_1726/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1726/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="328.0585085325762" y="739.649796677181" z="237.79251384669323">
+      <High file="draco_high_tile512/high_1726/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1726/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1727">
+    <Tile id="1" x="320.50224048260264" y="320.3732034701204" z="243.98082276641077">
+      <High file="draco_high_tile512/high_1727/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1727/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="326.4867188964117" y="741.8169798505659" z="237.1423378810849">
+      <High file="draco_high_tile512/high_1727/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1727/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1728">
+    <Tile id="1" x="318.81419692268116" y="320.0450450419594" z="244.99314273677572">
+      <High file="draco_high_tile512/high_1728/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1728/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="324.37686753389113" y="739.3915359897338" z="236.5232955094041">
+      <High file="draco_high_tile512/high_1728/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1728/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1729">
+    <Tile id="1" x="316.61618810802827" y="320.5163236348819" z="245.29488330662596">
+      <High file="draco_high_tile512/high_1729/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1729/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="323.13723806330364" y="739.9187560269484" z="235.41196556868329">
+      <High file="draco_high_tile512/high_1729/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1729/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1730">
+    <Tile id="1" x="314.5187266214137" y="321.59734949436506" z="245.16560023664118">
+      <High file="draco_high_tile512/high_1730/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1730/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="322.0248251103589" y="739.9849569198212" z="235.26882303811578">
+      <High file="draco_high_tile512/high_1730/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1730/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1731">
+    <Tile id="1" x="311.960096308436" y="322.8418305248239" z="244.4897120113979">
+      <High file="draco_high_tile512/high_1731/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1731/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="320.31551674625223" y="737.7822222380099" z="235.19687399538887">
+      <High file="draco_high_tile512/high_1731/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1731/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1732">
+    <Tile id="1" x="309.51873396211164" y="322.3115341233877" z="243.06278566865004">
+      <High file="draco_high_tile512/high_1732/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1732/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="319.1913908868571" y="736.0658700373015" z="236.0312302047688">
+      <High file="draco_high_tile512/high_1732/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1732/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1733">
+    <Tile id="1" x="307.5369916368174" y="321.04664866638757" z="241.02802670972605">
+      <High file="draco_high_tile512/high_1733/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1733/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="317.680134173734" y="736.3110543589773" z="235.29919284021912">
+      <High file="draco_high_tile512/high_1733/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1733/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1734">
+    <Tile id="1" x="305.14192472187455" y="321.55898450002394" z="239.32446706059156">
+      <High file="draco_high_tile512/high_1734/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1734/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="316.19918332015413" y="736.5042390457827" z="234.95756735160057">
+      <High file="draco_high_tile512/high_1734/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1734/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1735">
+    <Tile id="1" x="303.1378737610852" y="321.97072925853587" z="237.5476839991043">
+      <High file="draco_high_tile512/high_1735/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1735/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="314.3430238200372" y="735.7551541246951" z="235.66440560700002">
+      <High file="draco_high_tile512/high_1735/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1735/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1736">
+    <Tile id="1" x="301.12654230742993" y="322.3014013751633" z="235.88553770246614">
+      <High file="draco_high_tile512/high_1736/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1736/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="312.00332793704047" y="735.837819516764" z="236.23490051161895">
+      <High file="draco_high_tile512/high_1736/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1736/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1737">
+    <Tile id="1" x="298.65330149792743" y="323.10331609302045" z="232.48863894097292">
+      <High file="draco_high_tile512/high_1737/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1737/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="309.528871847792" y="735.1242206370981" z="236.8559423534435">
+      <High file="draco_high_tile512/high_1737/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1737/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1738">
+    <Tile id="1" x="296.2336563695163" y="322.77452098530193" z="230.12652606035812">
+      <High file="draco_high_tile512/high_1738/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1738/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="308.0208988479656" y="735.0688021391807" z="237.5438290125166">
+      <High file="draco_high_tile512/high_1738/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1738/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1739">
+    <Tile id="1" x="294.1070023422652" y="322.64979316859484" z="227.4777112694446">
+      <High file="draco_high_tile512/high_1739/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1739/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="306.5421006238914" y="735.8193962994455" z="237.50845398002014">
+      <High file="draco_high_tile512/high_1739/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1739/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1740">
+    <Tile id="1" x="293.2248427032511" y="322.67723362775564" z="224.97909689928315">
+      <High file="draco_high_tile512/high_1740/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1740/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="305.0823309424426" y="735.6132136067888" z="237.64537576271272">
+      <High file="draco_high_tile512/high_1740/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1740/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1741">
+    <Tile id="1" x="292.63088668731376" y="322.8007713497026" z="223.76007348216527">
+      <High file="draco_high_tile512/high_1741/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1741/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="304.1372782512962" y="737.2208915055052" z="238.22994395088608">
+      <High file="draco_high_tile512/high_1741/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1741/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1742">
+    <Tile id="1" x="292.06306968101933" y="323.9089926810266" z="222.93432729033722">
+      <High file="draco_high_tile512/high_1742/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1742/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="302.54268747612883" y="737.9145655114506" z="238.69220719704379">
+      <High file="draco_high_tile512/high_1742/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1742/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1743">
+    <Tile id="1" x="291.94994695237347" y="325.45742790586036" z="223.0347433205313">
+      <High file="draco_high_tile512/high_1743/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1743/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="302.7910394548567" y="738.1161490444644" z="238.33192162937468">
+      <High file="draco_high_tile512/high_1743/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1743/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1744">
+    <Tile id="1" x="291.78256803089016" y="326.5011575391894" z="223.58670243897177">
+      <High file="draco_high_tile512/high_1744/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1744/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="303.3211636590048" y="739.928321380749" z="238.23370081833917">
+      <High file="draco_high_tile512/high_1744/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1744/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1745">
+    <Tile id="1" x="290.73410477148184" y="328.12465660977233" z="224.74834080230679">
+      <High file="draco_high_tile512/high_1745/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1745/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="301.55463911264263" y="739.9512544154169" z="237.5683122486042">
+      <High file="draco_high_tile512/high_1745/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1745/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1746">
+    <Tile id="1" x="289.3462923740505" y="329.07957586901" z="225.8333573444988">
+      <High file="draco_high_tile512/high_1746/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1746/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="300.5988446772396" y="744.1370249866972" z="236.79015096494098">
+      <High file="draco_high_tile512/high_1746/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1746/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1747">
+    <Tile id="1" x="289.29832402949444" y="329.4376105376462" z="226.3069412500537">
+      <High file="draco_high_tile512/high_1747/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1747/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="299.6573347664477" y="743.5314674531697" z="236.2321308069523">
+      <High file="draco_high_tile512/high_1747/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1747/tile_2.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1748">
+    <Tile id="1" x="289.1710491160109" y="331.46173365504967" z="226.67384602593248">
+      <High file="draco_high_tile512/high_1748/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1748/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="300.4786777136237" y="747.5592743789935" z="235.35750976406248">
+      <High file="draco_high_tile512/high_1748/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1748/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="513.887803091654" y="874.8292537037919" z="226.38050581769247">
+      <High file="draco_high_tile512/high_1748/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1748/tile_3.drc" />
+    </Tile>
+  </Frame>
+  <Frame id="1749">
+    <Tile id="1" x="289.2300726253398" y="331.72572516263807" z="226.59311902286888">
+      <High file="draco_high_tile512/high_1749/tile_1.drc" />
+      <Low file="draco_low_tile512/low_1749/tile_1.drc" />
+    </Tile>
+    <Tile id="2" x="298.6856304777635" y="745.9292713122517" z="234.7813196338632">
+      <High file="draco_high_tile512/high_1749/tile_2.drc" />
+      <Low file="draco_low_tile512/low_1749/tile_2.drc" />
+    </Tile>
+    <Tile id="3" x="514.2097817025533" y="913.0390077172256" z="215.14146564762765">
+      <High file="draco_high_tile512/high_1749/tile_3.drc" />
+      <Low file="draco_low_tile512/low_1749/tile_3.drc" />
+    </Tile>
+  </Frame>
+</Tileset>
