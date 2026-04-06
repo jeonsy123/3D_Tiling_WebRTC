@@ -1,0 +1,4 @@
+Run,TileSize,TargetFrameCount,Mbps,ContentFPS,RenderFPS
+1,_128,300,35.57,2.00,623.68
+2,_128,300,35.30,2.00,632.28
+3,_128,300,35.03,2.00,629.89

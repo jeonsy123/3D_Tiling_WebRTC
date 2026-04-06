@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<Tileset>
+  <Tile id="1" x="200.38820856941433" y="129.97830230554322" z="134.69357772613733">
+    <High file="soldier_tile_1.ply"/>
+    <Low file="d_soldier_tile_1.ply"/>
+  </Tile>
+  <Tile id="2" x="270.6218836565097" y="242.98107109879962" z="300.99076638965835">
+    <High file="soldier_tile_2.ply"/>
+    <Low file="d_soldier_tile_2.ply"/>
+  </Tile>
+  <Tile id="3" x="191.46670509340177" y="396.35943872175324" z="165.33246563286355">
+    <High file="soldier_tile_3.ply"/>
+    <Low file="d_soldier_tile_3.ply"/>
+  </Tile>
+  <Tile id="4" x="259.1295782463929" y="378.6966564927858" z="320.0865704772475">
+    <High file="soldier_tile_4.ply"/>
+    <Low file="d_soldier_tile_4.ply"/>
+  </Tile>
+  <Tile id="5" x="159.9884091871157" y="651.5273907142576" z="158.592235551851">
+    <High file="soldier_tile_5.ply"/>
+    <Low file="d_soldier_tile_5.ply"/>
+  </Tile>
+  <Tile id="6" x="204.63228677379482" y="642.2111578079935" z="328.34874330449117">
+    <High file="soldier_tile_6.ply"/>
+    <Low file="d_soldier_tile_6.ply"/>
+  </Tile>
+  <Tile id="7" x="201.8914597605401" y="883.6379816240006" z="190.85411719361937">
+    <High file="soldier_tile_7.ply"/>
+    <Low file="d_soldier_tile_7.ply"/>
+  </Tile>
+  <Tile id="8" x="251.37047833576256" y="867.5134490526037" z="305.59566715251094">
+    <High file="soldier_tile_8.ply"/>
+    <Low file="d_soldier_tile_8.ply"/>
+  </Tile>
+  <Tile id="9" x="340.5936467485517" y="121.2987569081238" z="243.164594846873">
+    <High file="soldier_tile_9.ply"/>
+    <Low file="d_soldier_tile_9.ply"/>
+  </Tile>
+  <Tile id="10" x="341.910722628874" y="86.22963712817318" z="316.4333437159321">
+    <High file="soldier_tile_10.ply"/>
+    <Low file="d_soldier_tile_10.ply"/>
+  </Tile>
+  <Tile id="11" x="318.80051506781035" y="404.5718083449293" z="220.705248291761">
+    <High file="soldier_tile_11.ply"/>
+    <Low file="d_soldier_tile_11.ply"/>
+  </Tile>
+  <Tile id="12" x="309.0642570281124" y="348.1136309945665" z="304.9301519804709">
+    <High file="soldier_tile_12.ply"/>
+    <Low file="d_soldier_tile_12.ply"/>
+  </Tile>
+  <Tile id="13" x="319.75266969291124" y="655.0777025825797" z="186.08883173527076">
+    <High file="soldier_tile_13.ply"/>
+    <Low file="d_soldier_tile_13.ply"/>
+  </Tile>
+  <Tile id="14" x="328.05458256787097" y="733.2539701979996" z="337.30385793018985">
+    <High file="soldier_tile_14.ply"/>
+    <Low file="d_soldier_tile_14.ply"/>
+  </Tile>
+  <Tile id="15" x="319.4096101796197" y="820.8445991071742" z="201.5287004815635">
+    <High file="soldier_tile_15.ply"/>
+    <Low file="d_soldier_tile_15.ply"/>
+  </Tile>
+  <Tile id="16" x="319.45271160669034" y="791.0780537252914" z="321.3773948302078">
+    <High file="soldier_tile_16.ply"/>
+    <Low file="d_soldier_tile_16.ply"/>
+  </Tile>
+</Tileset>
