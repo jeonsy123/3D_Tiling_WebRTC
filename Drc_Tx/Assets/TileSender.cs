@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Net.WebSockets;
 
-// [필수] 전역 Enum 정의
+// 타일 사이즈 정의
 public enum TileSize { _64, _128, _256, _512, _1024 }
 
 public class TileSender : MonoBehaviour
@@ -66,7 +66,6 @@ public class TileSender : MonoBehaviour
     ulong bytesSentTotal = 0;
     int batchCounter = 0;
 
-    // 경로 캐싱
     private string assetBasePath;
 
     IEnumerator Start()
@@ -135,7 +134,6 @@ public class TileSender : MonoBehaviour
     void HandleTilesDCOpen()
     {
         Debug.Log("[TX] tiles open");
-        // [수정] Draco용 XML 전송 시작
         StartCoroutine(SendInitialXmlWithFraming());
         TryStartSendLoop();
     }
@@ -184,23 +182,18 @@ public class TileSender : MonoBehaviour
         SendCtrl(new CtrlPing { t0 = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() });
     }
 
-    // ==================================================================================
-    // [수정] Draco XML 파일명 처리 (Draco_ 접두어 추가)
-    // ==================================================================================
     IEnumerator SendInitialXmlWithFraming()
     {
         while (tilesDC == null || tilesDC.ReadyState != RTCDataChannelState.Open) yield return null;
 
         string sizeStr = tileSize.ToString().Substring(1);
 
-        // [수정] 파일명 앞에 "Draco_" 추가
         string name = $"Draco_tile_metadata_{sizeStr}.xml";
         string xmlPath = Path.Combine(assetBasePath, name);
 
         if (!File.Exists(xmlPath))
         {
             Debug.LogError($"[TX] XML Not Found: {xmlPath}");
-            // XML이 없으면 아무것도 못하므로 여기서 종료
             yield break;
         }
 
@@ -241,7 +234,6 @@ public class TileSender : MonoBehaviour
             {
                 string batchName = $"__BATCH__/batch_frame{latestRequestedFrameId}_{batchCounter++}.batch";
 
-                // [최적화] 비동기 패킹 (파일 없으면 0바이트 처리 포함)
                 Task<byte[]> packTask = Task.Run(() => PackBatchThreaded(batchList, assetBasePath));
 
                 while (!packTask.IsCompleted) yield return null;
@@ -270,7 +262,6 @@ public class TileSender : MonoBehaviour
         sending = false;
     }
 
-    // [최적화] 파일 읽기 스레드 (없는 파일 0바이트 처리)
     static byte[] PackBatchThreaded(List<string> batchList, string basePath)
     {
         try
@@ -283,7 +274,6 @@ public class TileSender : MonoBehaviour
                 foreach (var rel in batchList)
                 {
                     string relNorm = NormalizeRel(rel);
-                    // 경로는 클라이언트 요청 그대로 사용 (XML에 이미 draco_ 폴더 경로가 있을 것임)
                     string fullPath = Path.Combine(basePath, relNorm.Replace('/', Path.DirectorySeparatorChar));
 
                     if (File.Exists(fullPath))
@@ -293,7 +283,6 @@ public class TileSender : MonoBehaviour
                     }
                     else
                     {
-                        // [중요] 파일이 없으면 빈 배열(0 byte)을 추가 -> 수신측 멈춤 해결
                         validFiles.Add((relNorm, new byte[0]));
                     }
                 }
@@ -334,7 +323,6 @@ public class TileSender : MonoBehaviour
             }
             else
             {
-                // 단일 파일 요청 시에도 파일 없으면 0바이트 전송
                 bytes = new byte[0];
             }
         }
@@ -353,7 +341,7 @@ public class TileSender : MonoBehaviour
         if (tilesDC == null || tilesDC.ReadyState != RTCDataChannelState.Open) yield break;
 
         int total = bytes.Length;
-        if (total == 0) yield break; // 0바이트면 전송할 내용 없음
+        if (total == 0) yield break;
 
         int chunks = (total + chunkSize - 1) / chunkSize;
 
@@ -374,7 +362,6 @@ public class TileSender : MonoBehaviour
         }
     }
 
-    // ---- 유틸 ----
     static string NormalizeRel(string p)
     {
         if (string.IsNullOrEmpty(p)) return "";
