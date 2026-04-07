@@ -52,7 +52,6 @@ public class CameraMotionSequencer : MonoBehaviour
             }
         }
 
-        // 시퀀서는 반복 제어 담당 → pitchCtrl.loop는 꺼두는 것을 권장
         pitchCtrl.loop = false;
 
         seqCo = StartCoroutine(RunPitchOnlyLoop());
@@ -72,29 +71,25 @@ public class CameraMotionSequencer : MonoBehaviour
         do
         {
             float dur = usePitchCtrlTotalDuration
-                ? Mathf.Max(0f, pitchCtrl.totalDuration)   // pitchCtrl 설정과 자동 동기화
-                : Mathf.Max(0f, activeDuration);           // 수동 값 사용
+                ? Mathf.Max(0f, pitchCtrl.totalDuration)   
+                : Mathf.Max(0f, activeDuration);           
 
             if (restartEachCycle)
             {
-                // 재시작: OnEnable()이 다시 호출되어 initialLocalEuler를 현재 값 기준으로 잡음
                 pitchCtrl.enabled = false;
-                yield return null; // 한 프레임 양보
+                yield return null; 
                 pitchCtrl.enabled = true;
             }
             else
             {
-                // 최초 1회만 켜고 계속 유지
                 if (!pitchCtrl.enabled) pitchCtrl.enabled = true;
             }
 
-            // 1사이클(or 수동 지정 시간) 동안 대기
             if (dur > 0f) yield return new WaitForSeconds(dur);
             else yield return null;
 
             if (!loop) break;
 
-            // 루프 간 아이들 시간
             if (idleBetweenLoops > 0f) yield return new WaitForSeconds(idleBetweenLoops);
         }
         while (loop);

@@ -21,10 +21,6 @@ public enum OutsideFovMode { Skip, RequestLow }
 
 public class WebRTCDracoFovPlayer : MonoBehaviour
 {
-    // ==================================================================================
-    // [설정 영역]
-    // ==================================================================================
-
     [Header("Data Logger")]
     public DataLogger dataLogger;
 
@@ -58,30 +54,26 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
     public float pitchAmplitude = 30f;
 
 
-    // ==================================================================================
-    // [내부 변수 영역]
-    // ==================================================================================
-
     private RTCPeerConnection pc;
     private RTCDataChannel ctrlDC, tilesDC;
     private ClientWebSocket ws;
     private readonly ConcurrentQueue<string> rxSignal = new();
     private CancellationTokenSource wsCts;
 
-    // --- 수신 데이터 관리 ---
+    //수신 데이터 관리
     private readonly ConcurrentDictionary<string, byte[]> receivedFiles = new ConcurrentDictionary<string, byte[]>();
     private readonly ConcurrentDictionary<string, Mesh> meshCache = new ConcurrentDictionary<string, Mesh>();
 
-    // --- 지연시간 측정 ---
+    //지연시간 측정
     private Dictionary<string, float> requestStartTimes = new Dictionary<string, float>();
     private List<float> highTileLatencies = new List<float>();
 
-    // --- 메타데이터 ---
+    // 메타데이터
     private class TileMeta { public int id; public Vector3 pos; public string highRel; public string lowRel; }
     private class FrameMeta { public int id; public List<TileMeta> tiles = new(); }
     private readonly List<FrameMeta> frames = new();
 
-    // --- 상태 관리 ---
+    //상태 관리
     private bool xmlReady = false;
     private DracoMeshLoader dracoLoader;
     private readonly SemaphoreSlim dracoSemaphore = new SemaphoreSlim(4, 4);
@@ -94,23 +86,14 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
     private float elapsedTime = 0f;
     private ulong totalBytesTracked = 0;
 
-    // --- 파일 조립용 ---
+    //파일 조립용
     private MemoryStream activeFileStream;
     private string activeFileName;
 
-
-    // ==================================================================================
-    // [메시지 클래스]
-    // ==================================================================================
     [Serializable] private class Sig { public string type, sdp, candidate, sdpMid; public int sdpMLineIndex; }
     [Serializable] private class CtrlType { public string type; }
     [Serializable] private class FileStart { public string type; public string name; public int bytes; }
     [Serializable] private class RequestTileMsg { public string type = "requestTile"; public string relativePath; public int priority = 0; }
-
-
-    // ==================================================================================
-    // [Unity LifeCycle]
-    // ==================================================================================
 
     void Start()
     {
@@ -171,11 +154,6 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
         meshCache.Clear();
     }
 
-
-    // ==================================================================================
-    // [초기화 및 루프 로직]
-    // ==================================================================================
-
     IEnumerator StartupTimeout(float timeout)
     {
         float masterTimer = 0f;
@@ -187,7 +165,7 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
         }
         if (!isTrackingStarted)
         {
-            Debug.LogError($"[Timeout] Start failed. Quitting.");
+            Debug.LogError($"Timeout. Quitting.");
             FinishExperimentAndQuit();
         }
     }
@@ -211,7 +189,7 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
 
         if (totalFramesInXml == 0)
         {
-            Debug.LogError("XML Empty!");
+            Debug.LogError("XML Empty");
             yield return new WaitForSeconds(5f);
             FinishExperimentAndQuit();
             yield break;
@@ -220,7 +198,7 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
         if (!isTrackingStarted)
         {
             isTrackingStarted = true;
-            Debug.Log($"[WebRTC Player] Start Tracking. TileSize: {tileSize}, TargetFPS: {targetDataFPS}");
+            Debug.Log($"Start Tracking. TileSize: {tileSize}, TargetFPS: {targetDataFPS}");
             requestStartTimes.Clear();
             highTileLatencies.Clear();
             System.GC.Collect();
@@ -265,10 +243,6 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
         FinishExperimentAndQuit();
     }
 
-
-    // ==================================================================================
-    // [프레임 처리 로직 - 수정됨]
-    // ==================================================================================
 
     IEnumerator ProcessFrameFOV(FrameMeta frame)
     {
@@ -342,7 +316,7 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
                 if (mf.sharedMesh != null && mf.sharedMesh != mesh) Destroy(mf.sharedMesh);
                 mf.sharedMesh = mesh;
 
-                mesh.UploadMeshData(false); // GPU 최적화
+                mesh.UploadMeshData(false);
 
                 var mr = go.GetComponent<MeshRenderer>();
                 mr.material = isHigh ? pointMaterial : lowPointMaterial;
@@ -369,11 +343,6 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
             }
         }
     }
-
-
-    // ==================================================================================
-    // [데이터 요청 및 Draco 디코딩 - 수정됨]
-    // ==================================================================================
 
     async Task<Mesh> GetTileMesh(string relativePath, bool isHigh)
     {
@@ -437,10 +406,6 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
         ctrlDC.Send(Encoding.UTF8.GetBytes(JsonUtility.ToJson(msg)));
     }
 
-
-    // ==================================================================================
-    // [Signaling 및 WebRTC 핸들러]
-    // ==================================================================================
 
     void OnCtrlMessage(byte[] data)
     {
@@ -518,7 +483,7 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
             await ws.ConnectAsync(new Uri(signalingUrl), wsCts.Token);
             _ = Task.Run(ReceiveLoop);
         }
-        catch (Exception e) { Debug.LogError($"[RX] Signaling Error: {e.Message}"); }
+        catch (Exception e) { Debug.LogError($"Signaling Error: {e.Message}"); }
     }
 
     async Task ReceiveLoop()
@@ -582,11 +547,6 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
             _ = ws.SendAsync(new ArraySegment<byte>(data), WebSocketMessageType.Text, true, CancellationToken.None);
         }
     }
-
-
-    // ==================================================================================
-    // [유틸리티]
-    // ==================================================================================
 
     void ParseXml(byte[] xmlBytes)
     {
@@ -666,9 +626,6 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
         return go;
     }
 
-    // ==================================================================================
-    // [종료 함수 업그레이드 - ExperimentManager 연결 및 크래시 방지 적용]
-    // ==================================================================================
     void FinishExperimentAndQuit()
     {
         double mbpsOnWire = (elapsedTime > 0) ? (totalBytesTracked * 8.0) / (elapsedTime * 1_000_000.0) : 0;
@@ -683,13 +640,11 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
         Debug.Log($"[Content] Play FPS: {finalDataFps:F2}");
         Debug.Log($"[Latency] Avg HQ Latency: {avgLatencyMs:F2} ms");
 
-        // 1. 전역 DataLogger(4개 항목 버전)와 파라미터 연결
         if (dataLogger != null)
         {
             dataLogger.SaveDirectResult(targetFrameCount, tileSize.ToString(), targetDataFPS, totalBytesTracked, elapsedTime, mbpsOnWire, finalDataFps, finalRenderFps, avgLatencyMs);
         }
 
-        // 2. [추가] 고반복 크래시 방지용 메모리 대청소
         meshCache.Clear();
         receivedFiles.Clear();
         highTileLatencies.Clear();
@@ -697,7 +652,6 @@ public class WebRTCDracoFovPlayer : MonoBehaviour
         Resources.UnloadUnusedAssets();
         System.GC.Collect();
 
-        // 3. [추가] Manager를 찾아서 끝났다고 알림 (파일 삭제 및 종료 요청)
         var manager = FindObjectOfType<ExperimentManager>();
         if (manager != null)
         {
