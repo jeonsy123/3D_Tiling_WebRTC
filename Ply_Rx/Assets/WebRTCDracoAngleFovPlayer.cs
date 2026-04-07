@@ -17,15 +17,11 @@ using System.Runtime.InteropServices;
 using System.Diagnostics;
 using Debug = UnityEngine.Debug;
 
-// ==================================================================================
-// [전역 Enum 정의]
-// ==================================================================================
 public enum TileSize { _64, _128, _256, _512, _1024 }
 public enum OutsideFovMode { Skip, RequestLow }
 
 public class WebRTCPlyFovPlayer : MonoBehaviour
 {
-    // [PLY 전용] 파싱 데이터 전달용 컨테이너
     public class ParsedMeshData : IDisposable
     {
         public NativeArray<VertexData> vertices;
@@ -45,10 +41,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         public Vector3 pos;
         public Color32 color;
     }
-
-    // ==================================================================================
-    // [설정 영역]
-    // ==================================================================================
 
     [Header("Data Logger")]
     public DataLogger dataLogger;
@@ -83,10 +75,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
     public float pitchAmplitude = 30f;
 
 
-    // ==================================================================================
-    // [내부 변수]
-    // ==================================================================================
-
     private RTCPeerConnection pc;
     private RTCDataChannel ctrlDC, tilesDC;
     private ClientWebSocket ws;
@@ -96,7 +84,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
     private readonly ConcurrentDictionary<string, byte[]> receivedFiles = new ConcurrentDictionary<string, byte[]>();
     private readonly ConcurrentDictionary<string, Mesh> meshCache = new ConcurrentDictionary<string, Mesh>();
 
-    // [최적화] 동시 파싱 제한 (4개)
     private readonly SemaphoreSlim parseSemaphore = new SemaphoreSlim(4, 4);
 
     private Dictionary<string, float> requestStartTimes = new Dictionary<string, float>();
@@ -119,7 +106,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
     private MemoryStream activeFileStream;
     private string activeFileName;
 
-    // 메시지 구조체
     [Serializable] private class Sig { public string type, sdp, candidate, sdpMid; public int sdpMLineIndex; }
     [Serializable] private class CtrlType { public string type; }
     [Serializable] private class FileStart { public string type; public string name; public int bytes; }
@@ -165,10 +151,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         foreach (var m in meshCache.Values) if (m != null) Destroy(m);
     }
 
-    // ==================================================================================
-    // [초기화 및 재생 루프]
-    // ==================================================================================
-
     IEnumerator StartupTimeout(float timeout)
     {
         float timer = 0f;
@@ -199,7 +181,7 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         if (ctrlDC != null && ctrlDC.ReadyState == RTCDataChannelState.Open)
         {
             string xmlName = GetCurrentXmlName();
-            Debug.Log($"[Client] Requesting XML: {xmlName}");
+            Debug.Log($"Requesting XML: {xmlName}");
             xmlReady = false;
             RequestTile(xmlName, 10);
         }
@@ -219,7 +201,7 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         if (!isTrackingStarted)
         {
             isTrackingStarted = true;
-            Debug.Log($"[PLY Player] Start Tracking. TargetFPS: {targetDataFPS}");
+            Debug.Log($"Start Tracking. TargetFPS: {targetDataFPS}");
             requestStartTimes.Clear();
             highTileLatencies.Clear();
             System.GC.Collect();
@@ -232,12 +214,10 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         {
             nextFrameTime += targetInterval;
 
-            // 카메라 이동
             float progress = (float)currentFrameIndex / totalFramesInXml;
             float targetPitch = initialPitch + Mathf.Sin(progress * Mathf.PI * 2) * pitchAmplitude;
             mainCamera.transform.localEulerAngles = new Vector3(targetPitch, mainCamera.transform.localEulerAngles.y, 0);
 
-            // [파이프라인] 프레임 처리
             yield return StartCoroutine(ProcessFrameFOV(frames[currentFrameIndex]));
 
             if (isTrackingStarted) dataFramesProcessed++;
@@ -253,7 +233,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
                 GC.Collect();
             }
 
-            // 정확한 시간 대기
             double now = Time.realtimeSinceStartup;
             double waitTime = nextFrameTime - now;
 
@@ -265,9 +244,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         FinishExperimentAndQuit();
     }
 
-    // ==================================================================================
-    // [파이프라인 프레임 처리] (시간 제한 로직 제거됨)
-    // ==================================================================================
 
     IEnumerator ProcessFrameFOV(FrameMeta frame)
     {
@@ -275,7 +251,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         List<string> taskUrls = new List<string>();
         List<bool> taskIsHigh = new List<bool>();
 
-        // 1. 요청 목록 작성
         foreach (var tile in frame.tiles)
         {
             bool inFOV = IsInFOV(tile);
@@ -307,7 +282,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         poolIndex = 0;
         int processedInThisFrame = 0;
 
-        // 2. 선착순 처리
         while (runningTasks.Count > 0)
         {
             Task<Task<Mesh>> whenAny = Task.WhenAny(runningTasks);
@@ -360,10 +334,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         }
     }
 
-    // ==================================================================================
-    // [데이터 요청 및 파싱] (타임아웃 로직 5초로 복구됨)
-    // ==================================================================================
-
     async Task<Mesh> GetTileMeshAsync(string relativePath, int priority)
     {
         if (meshCache.TryGetValue(relativePath, out Mesh cached)) return cached;
@@ -374,7 +344,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
             float start = Time.unscaledTime;
             while (!receivedFiles.TryGetValue(relativePath, out bytes))
             {
-                // [복구] 기존 5.0f 대기 시간으로 복원
                 if (Time.unscaledTime - start > 5.0f) return null;
                 await Task.Delay(5);
             }
@@ -482,10 +451,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         return new ParsedMeshData { vertices = vertices, indices = indices, vCount = vCount };
     }
 
-
-    // ==================================================================================
-    // [유틸 및 웹소켓]
-    // ==================================================================================
     void HandleCompletedFile(string nameRel, byte[] bytes)
     {
         if (nameRel.EndsWith(".xml")) { ParseXml(bytes); return; }
@@ -593,9 +558,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
     void OnTilesMessage(byte[] d) { activeFileStream?.Write(d, 0, d.Length); }
     void RequestTile(string p, int pr) { if (ctrlDC?.ReadyState == RTCDataChannelState.Open) ctrlDC.Send(Encoding.UTF8.GetBytes(JsonUtility.ToJson(new RequestTileMsg { relativePath = p, priority = pr }))); }
 
-    // ==================================================================================
-    // [수정된 실험 종료 함수] : ExperimentManager 연결
-    // ==================================================================================
     void FinishExperimentAndQuit()
     {
         double mbps = (elapsedTime > 0) ? (totalBytesTracked * 8.0) / (elapsedTime * 1e6) : 0;
@@ -608,7 +570,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
 
         Debug.Log($"Result: Mbps={mbps:F2}, FPS={dfps:F2}, Lat={lat:F2}ms");
 
-        // [▼수정] 혼자 끄지 않고 Manager를 찾아서 끝났다고 알림 (파일 삭제 및 종료 요청)
         var manager = FindObjectOfType<ExperimentManager>();
         if (manager != null)
         {
@@ -616,7 +577,6 @@ public class WebRTCPlyFovPlayer : MonoBehaviour
         }
         else
         {
-            // 매니저가 없으면(비상시) 그냥 끔
             Debug.LogWarning("ExperimentManager를 찾을 수 없습니다! 강제 종료합니다.");
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;

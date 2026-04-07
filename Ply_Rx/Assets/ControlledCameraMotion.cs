@@ -1,4 +1,3 @@
-// 파일 이름: ControlledCameraMotion.cs
 using UnityEngine;
 using System.Collections;
 
@@ -7,17 +6,17 @@ public class ControlledCameraMotion : MonoBehaviour
 {
     [Header("타깃 각도(±)")]
     [Tooltip("위/아래 목표 피치 각도 (예: 30 → +30°, −30°)")]
-    public float pitchAmplitude = 30f; // ✅ 30도
+    public float pitchAmplitude = 30f; 
 
     [Header("총 수행 시간")]
     [Tooltip("전체 시나리오 총 길이(초) = moveUp + holdUp + moveDown + holdDown")]
-    public float totalDuration = 20f; // ✅ 총 20초
+    public float totalDuration = 20f; 
 
     [Header("정지 시간")]
     [Tooltip("+amplitude 에서의 정지 시간(초)")]
-    public float holdUp = 5f; // ✅ 위에서 5초 정지
+    public float holdUp = 5f; 
     [Tooltip("−amplitude 에서의 정지 시간(초)")]
-    public float holdDown = 5f; // ✅ 아래에서 5초 정지
+    public float holdDown = 5f; 
 
     [Header("보간 스무딩")]
     [Range(0f, 1f)]
@@ -37,12 +36,9 @@ public class ControlledCameraMotion : MonoBehaviour
     private Vector3 initialLocalEuler;
     private Coroutine motionCoroutine;
 
-    /// <summary>
-    /// 외부(WebRTCDracoFovPlayer)에서 이 함수를 호출하여 카메라 움직임을 시작시킵니다.
-    /// </summary>
+
     public void StartMotion()
     {
-        //Debug.Log(">>> StartMotion() 함수가 성공적으로 호출되었습니다! 20초 시퀀스를 시작합니다.");
 
         if (motionCoroutine != null)
         {
@@ -53,9 +49,6 @@ public class ControlledCameraMotion : MonoBehaviour
         motionCoroutine = StartCoroutine(RunMotionSequence());
     }
 
-    /// <summary>
-    /// 외부에서 카메라 움직임을 강제로 정지시킬 때 사용합니다.
-    /// </summary>
     public void StopMotion()
     {
         if (motionCoroutine != null)
@@ -65,14 +58,13 @@ public class ControlledCameraMotion : MonoBehaviour
         }
     }
     
-    // 이 스크립트는 스스로 시작하지 않습니다.
+
     void OnEnable() { }
     void OnDisable()
     {
         StopMotion();
     }
 
-    // 20초 시나리오를 실행하는 코루틴
     IEnumerator RunMotionSequence()
     {
         if (warmupDelay > 0f)
@@ -82,23 +74,16 @@ public class ControlledCameraMotion : MonoBehaviour
 
         do
         {
-            // 1) 이동 시간 자동 계산
             float remain = Mathf.Max(0f, totalDuration - (holdUp + holdDown));
             float moveUp = remain * 0.5f;
             float moveDown = remain * 0.5f;
 
-            // ▼▼▼ [수정됨] 위로 먼저 움직이도록 부호 변경 (-가 위, +가 아래) ▼▼▼
-            // 2) 현재각 → -amplitude로 이동 (위로)
             yield return MoveToPitch(initialLocalEuler.x - pitchAmplitude, moveUp);
 
-            // 3) 위에서 5초 정지
             if (holdUp > 0f) yield return new WaitForSeconds(holdUp);
 
-            // 4) -amplitude → +amplitude로 이동 (아래로)
             yield return MoveToPitch(initialLocalEuler.x + pitchAmplitude, moveDown);
-            // ▲▲▲ [수정 완료] ▲▲▲
 
-            // 5) 아래에서 5초 정지
             if (holdDown > 0f) yield return new WaitForSeconds(holdDown);
 
             if (loop && idleBetweenLoops > 0f)

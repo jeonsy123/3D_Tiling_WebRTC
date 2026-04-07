@@ -48,8 +48,8 @@ public class AutoPitchCameraController : MonoBehaviour
         {
             // 1) 이동 시간 자동 계산: 남는 시간 = total - holds
             float remain = Mathf.Max(0f, totalDuration - (holdUp + holdDown));
-            float moveUp = remain * 0.5f;     // 위로 이동 시간
-            float moveDown = remain * 0.5f;   // 아래로 이동 시간
+            float moveUp = remain * 0.5f;     
+            float moveDown = remain * 0.5f;  
 
             // 2) 현재각 → +amplitude로 이동
             yield return MoveToPitch(initialLocalEuler.x + pitchAmplitude, moveUp);
@@ -69,7 +69,6 @@ public class AutoPitchCameraController : MonoBehaviour
 
     IEnumerator MoveToPitch(float targetAbsolutePitch, float duration)
     {
-        // duration이 0이면 즉시 스냅
         if (duration <= 0f)
         {
             ApplyPitch(targetAbsolutePitch);
@@ -85,11 +84,10 @@ public class AutoPitchCameraController : MonoBehaviour
         {
             t += Time.deltaTime / duration;
 
-            // 이징(S-curve 가미)
             float tt = Mathf.Clamp01(t);
             if (ease > 0f)
             {
-                float s = tt * tt * (3f - 2f * tt); // smoothstep
+                float s = tt * tt * (3f - 2f * tt); 
                 tt = Mathf.Lerp(tt, s, ease);
             }
 
@@ -108,7 +106,6 @@ public class AutoPitchCameraController : MonoBehaviour
         transform.localEulerAngles = e;
     }
 
-    // 0~360 → -180~+180
     float NormalizeAngle(float angle)
     {
         angle %= 360f;
