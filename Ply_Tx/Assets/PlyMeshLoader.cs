@@ -4,7 +4,6 @@ using System.IO;
 
 public static class PlyMeshLoader
 {
-    // ✅ 1. 기존 방식: 로컬 파일 경로로부터 로드
     public static Mesh LoadPlyAsMesh(string fullPath)
     {
         if (!File.Exists(fullPath))
@@ -17,7 +16,6 @@ public static class PlyMeshLoader
         return LoadPlyFromBytes(data);
     }
 
-    // ✅ 2. 바이너리 PLY 파일로부터 Mesh 생성
     public static Mesh LoadPlyFromBytes(byte[] data)
     {
         List<Vector3> points = new List<Vector3>();
@@ -29,7 +27,6 @@ public static class PlyMeshLoader
             int vertexCount = 0;
             bool headerEnded = false;
 
-            // 1. 헤더 파싱
             while (!headerEnded)
             {
                 string line = ReadLine(br);
@@ -40,7 +37,6 @@ public static class PlyMeshLoader
                     headerEnded = true;
             }
 
-            // 2. 본문 파싱 (binary_little_endian)
             for (int i = 0; i < vertexCount; i++)
             {
                 float x = br.ReadSingle();
@@ -56,7 +52,6 @@ public static class PlyMeshLoader
             }
         }
 
-        // 중심 정렬
         Vector3 center = Vector3.zero;
         foreach (var p in points) center += p;
         center /= points.Count;
@@ -64,7 +59,6 @@ public static class PlyMeshLoader
         for (int i = 0; i < points.Count; i++)
             points[i] -= center;
 
-        // Mesh 생성
         Mesh mesh = new Mesh();
         mesh.indexFormat = UnityEngine.Rendering.IndexFormat.UInt32;
         mesh.SetVertices(points);
@@ -78,7 +72,6 @@ public static class PlyMeshLoader
         return mesh;
     }
 
-    // ASCII 라인 읽기
     private static string ReadLine(BinaryReader br)
     {
         List<byte> bytes = new List<byte>();

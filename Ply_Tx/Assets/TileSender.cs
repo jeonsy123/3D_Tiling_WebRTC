@@ -10,10 +10,6 @@ using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Net.WebSockets;
 
-// ==================================================================================
-// [전역 Enum 정의]
-// 송신측에도 이 정의가 반드시 필요합니다.
-// ==================================================================================
 public enum TileSize { _64, _128, _256, _512, _1024 }
 
 public class TileSender : MonoBehaviour
@@ -22,7 +18,7 @@ public class TileSender : MonoBehaviour
     public string signalingUrl = "ws://127.0.0.1:3001?room=demo";
 
     [Header("XML / Files")]
-    [Tooltip("RX(수신측)와 동일해야 함")]
+    [Tooltip("RX와 동일해야 함")]
     public TileSize tileSize = TileSize._128;
 
     [Header("Performance")]
@@ -33,24 +29,23 @@ public class TileSender : MonoBehaviour
 
     [Header("Chunk & Backpressure")]
     public int chunkSize = 1200;
-    public ulong bufferedAmountLimit = 256 * 1024; // 256KB
+    public ulong bufferedAmountLimit = 256 * 1024; 
     public int progressLogEveryNChunks = 64;
 
     [Header("Debug")]
     public bool verbose = true;
 
-    // --- WebRTC ---
     RTCPeerConnection pc;
     RTCDataChannel ctrlDC;
     RTCDataChannel tilesDC;
     bool isCaller = true;
 
-    // --- signaling ---
+    // signaling
     ClientWebSocket ws;
     readonly ConcurrentQueue<string> rxSignal = new();
     CancellationTokenSource wsCts;
 
-    // --- msg types ---
+    // msg types
     [Serializable] class Sig { public string type, sdp, candidate, sdpMid; public int sdpMLineIndex; }
     [Serializable] class CtrlHello { public string type = "hello"; public string role = "sender"; }
     [Serializable] class CtrlPing { public string type = "ping"; public long t0; }
@@ -60,7 +55,6 @@ public class TileSender : MonoBehaviour
     [Serializable] class FileStart { public string type = "file_start"; public string name; public int bytes; }
     [Serializable] class FileEnd { public string type = "file_end"; }
 
-    // --- 전송 큐/상태 ---
     readonly ConcurrentQueue<string> sendQueue = new();
     readonly ConcurrentDictionary<string, byte> inQueue = new();
     bool sending = false;
@@ -126,14 +120,14 @@ public class TileSender : MonoBehaviour
 
     void HandleCtrlDCOpen()
     {
-        Debug.Log("[TX] ctrl open");
+        Debug.Log("ctrl open");
         SendCtrl(new CtrlHello());
         StartCoroutine(SendPingDelayed(1f));
     }
 
     void HandleTilesDCOpen()
     {
-        Debug.Log("[TX] tiles open");
+        Debug.Log("tiles open");
         StartCoroutine(SendInitialXmlWithFraming());
         TryStartSendLoop();
     }
@@ -158,7 +152,7 @@ public class TileSender : MonoBehaviour
             {
                 while (sendQueue.TryDequeue(out _)) ;
                 inQueue.Clear();
-                Debug.LogWarning("[TX] Queue Overflow! Cleared.");
+                Debug.LogWarning("Queue Overflow! Cleared.");
             }
 
             if (inQueue.TryAdd(req.relativePath, 1))
@@ -191,7 +185,7 @@ public class TileSender : MonoBehaviour
 
         if (!File.Exists(xmlPath))
         {
-            Debug.LogError($"[TX] XML Not Found: {xmlPath}");
+            Debug.LogError($"XML Not Found: {xmlPath}");
             yield break;
         }
 
@@ -230,7 +224,7 @@ public class TileSender : MonoBehaviour
                 byte[] batchPayload = PackBatch(batchList);
                 string batchName = $"__BATCH__/batch_frame{latestRequestedFrameId}_{batchCounter++}.batch";
 
-                if (verbose) Debug.Log($"[TX] Sending Batch: {batchList.Count} items (Size: {batchPayload.Length})");
+                if (verbose) Debug.Log($"Sending Batch: {batchList.Count} items (Size: {batchPayload.Length})");
                 yield return StartCoroutine(SendTileFileWithFraming(batchName, batchPayload));
 
                 if (batchDelay > 0) yield return new WaitForSeconds(batchDelay);
@@ -243,9 +237,6 @@ public class TileSender : MonoBehaviour
         sending = false;
     }
 
-    // ==================================================================================
-    // [핵심 로직] 파일이 없어도 0바이트 데이터로 응답하여 수신측 대기 해제
-    // ==================================================================================
     byte[] PackBatch(List<string> batchList)
     {
         using (var ms = new MemoryStream())
@@ -265,7 +256,6 @@ public class TileSender : MonoBehaviour
                 }
                 else
                 {
-                    // [중요] 파일이 없으면 빈 바이트 배열(0 byte)을 보내서 수신측이 "파일 없음"으로 처리하게 함
                     validFiles.Add((relNorm, new byte[0]));
                 }
             }
@@ -282,7 +272,6 @@ public class TileSender : MonoBehaviour
         }
     }
 
-    // [단일 파일 전송 시에도 0바이트 처리 적용]
     IEnumerator SendTileFileWithFraming(string relativePath, byte[] customPayload = null)
     {
         if (string.IsNullOrEmpty(relativePath)) yield break;
@@ -303,7 +292,6 @@ public class TileSender : MonoBehaviour
             }
             else
             {
-                // 파일이 없으면 0바이트 할당 -> 수신측에서 즉시 종료 처리됨
                 bytes = new byte[0];
             }
         }
@@ -323,7 +311,6 @@ public class TileSender : MonoBehaviour
 
         int total = bytes.Length;
 
-        // 0바이트면 전송할 내용 없음
         if (total == 0) yield break;
 
         int chunks = (total + chunkSize - 1) / chunkSize;
@@ -345,7 +332,6 @@ public class TileSender : MonoBehaviour
         }
     }
 
-    // ---- 유틸 ----
     static string NormalizeRel(string p)
     {
         if (string.IsNullOrEmpty(p)) return "";
@@ -369,7 +355,7 @@ public class TileSender : MonoBehaviour
         return -1;
     }
 
-    // ---- Signaling ----
+    // Signaling 
     async Task ConnectSignaling()
     {
         wsCts = new CancellationTokenSource();
